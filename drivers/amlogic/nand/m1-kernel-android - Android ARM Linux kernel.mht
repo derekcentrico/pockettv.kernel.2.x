@@ -1,0 +1,2662 @@
+From: <ÓÉ Windows Internet Explorer 8 ±£´æ>
+Subject: m1-kernel-android - Android ARM Linux kernel
+Date: Mon, 12 Nov 2012 10:52:35 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CDC0C3.D324EA60"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3664
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01CDC0C3.D324EA60
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://10.8.9.5/m1-kernel-android/commit/?h=ics-amlogic&id=0f996b25e34ec79c0abf15535c5196cce0cd3caa
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML lang=3Den xml:lang=3D"en" =
+xmlns=3D"http://www.w3.org/1999/xhtml"><HEAD><TITLE>m1-kernel-android - =
+Android ARM Linux kernel</TITLE>
+<META content=3D"text/html; charset=3Dutf-8" http-equiv=3DContent-Type>
+<META name=3DGENERATOR content=3D"MSHTML 8.00.6001.18702">
+<META name=3Drobots content=3D"index, nofollow"><LINK rel=3Dstylesheet =
+type=3Dtext/css=20
+href=3D"http://10.8.9.5/cgit.css"><LINK title=3D"Atom feed" =
+rel=3Dalternate=20
+type=3Dapplication/atom+xml=20
+href=3D"http://10.8.9.5/m1-kernel-android/atom/?h=3Dics-amlogic"></HEAD>
+<BODY>
+<DIV id=3Dcgit>
+<TABLE id=3Dheader>
+  <TBODY>
+  <TR>
+    <TD class=3Dlogo rowSpan=3D2><A href=3D"http://10.8.9.5/"><IMG =
+alt=3D"cgit logo"=20
+      src=3D"http://10.8.9.5/cgit.png"></A></TD>
+    <TD class=3Dmain><A href=3D"http://10.8.9.5/">index</A> : <A=20
+      title=3Dm1-kernel-android=20
+      =
+href=3D"http://10.8.9.5/m1-kernel-android/">m1-kernel-android</A></TD>
+    <TD class=3Dform>
+      <FORM method=3Dget action=3D""><INPUT=20
+      value=3D0f996b25e34ec79c0abf15535c5196cce0cd3caa type=3Dhidden =
+name=3Did><SELECT=20
+      onchange=3Dthis.form.submit(); name=3Dh> <OPTION =
+value=3DM3>M3</OPTION>=20
+        <OPTION value=3Damlogic-tv>amlogic-tv</OPTION> <OPTION=20
+        value=3Damlogic/froyo-amlogic>amlogic/froyo-amlogic</OPTION> =
+<OPTION=20
+        =
+value=3Damlogic/froyo-amlogic-mid-b17>amlogic/froyo-amlogic-mid-b17</OPTI=
+ON>=20
+        <OPTION =
+value=3Damlogic/froyo-amlogic-tv>amlogic/froyo-amlogic-tv</OPTION>=20
+        <OPTION =
+value=3Dandroid-2.3.1-amlogic>android-2.3.1-amlogic</OPTION>=20
+        <OPTION =
+value=3Dandroid-2.3.3-amlogic>android-2.3.3-amlogic</OPTION>=20
+        <OPTION =
+value=3Dandroid-2.3.4-amlogic>android-2.3.4-amlogic</OPTION>=20
+        <OPTION value=3Db01midproduction>b01midproduction</OPTION> =
+<OPTION=20
+        =
+value=3Db01midproduction-20110627>b01midproduction-20110627</OPTION>=20
+        <OPTION =
+value=3Db01midproduction-WIFIko>b01midproduction-WIFIko</OPTION>=20
+        <OPTION value=3Db02midproduction>b02midproduction</OPTION> =
+<OPTION=20
+        value=3Db09midproduction>b09midproduction</OPTION> <OPTION=20
+        value=3Db09midproduction-moon>b09midproduction-moon</OPTION> =
+<OPTION=20
+        value=3Db12-mid-20110519>b12-mid-20110519</OPTION> <OPTION=20
+        value=3Dcao_add_nand_ko>cao_add_nand_ko</OPTION> <OPTION=20
+        value=3Ddeinterlace-branch>deinterlace-branch</OPTION> <OPTION=20
+        value=3Ddemod_debug>demod_debug</OPTION> <OPTION=20
+        value=3Df06ref>f06ref</OPTION> <OPTION=20
+        value=3Dfroyo-amlogic>froyo-amlogic</OPTION> <OPTION=20
+        value=3Dfroyo-amlogic-backup>froyo-amlogic-backup</OPTION> =
+<OPTION=20
+        value=3Dfroyo-amlogic-merge>froyo-amlogic-merge</OPTION> <OPTION =
+
+        value=3Dfroyo-amlogic-mid>froyo-amlogic-mid</OPTION> <OPTION=20
+        =
+value=3Dfroyo-amlogic-mid-20110401>froyo-amlogic-mid-20110401</OPTION>=20
+        <OPTION=20
+        =
+value=3Dfroyo-amlogic-mid-20110410>froyo-amlogic-mid-20110410</OPTION>=20
+        <OPTION=20
+        =
+value=3Dfroyo-amlogic-mid-20110508>froyo-amlogic-mid-20110508</OPTION>=20
+        <OPTION=20
+        =
+value=3Dfroyo-amlogic-mid-20110526>froyo-amlogic-mid-20110526</OPTION>=20
+        <OPTION=20
+        =
+value=3Dfroyo-amlogic-mid-20110612>froyo-amlogic-mid-20110612</OPTION>=20
+        <OPTION=20
+        =
+value=3Dfroyo-amlogic-mid-b01flash>froyo-amlogic-mid-b01flash</OPTION>=20
+        <OPTION =
+value=3Dfroyo-amlogic-mid-b03ref>froyo-amlogic-mid-b03ref</OPTION>=20
+        <OPTION =
+value=3Dfroyo-amlogic-mid-b17>froyo-amlogic-mid-b17</OPTION>=20
+        <OPTION =
+value=3Dfroyo-amlogic-mid-backup>froyo-amlogic-mid-backup</OPTION>=20
+        <OPTION =
+value=3Dfroyo-amlogic-mid-divx>froyo-amlogic-mid-divx</OPTION>=20
+        <OPTION =
+value=3Dfroyo-amlogic-mid-usbnet>froyo-amlogic-mid-usbnet</OPTION>=20
+        <OPTION =
+value=3Dfroyo-amlogic-outform>froyo-amlogic-outform</OPTION>=20
+        <OPTION =
+value=3Dfroyo-amlogic-panodic>froyo-amlogic-panodic</OPTION>=20
+        <OPTION =
+value=3Dfroyo-amlogic-skyworthm2>froyo-amlogic-skyworthm2</OPTION>=20
+        <OPTION value=3Dfroyo-amlogic-tv>froyo-amlogic-tv</OPTION> =
+<OPTION=20
+        value=3Dfroyo-amlogic-tv-atsc>froyo-amlogic-tv-atsc</OPTION> =
+<OPTION=20
+        value=3Dfroyo-amlogic-tv-e03ref>froyo-amlogic-tv-e03ref</OPTION> =
+<OPTION=20
+        value=3Dfroyo-amlogic-tv-e06ref>froyo-amlogic-tv-e06ref</OPTION> =
+<OPTION=20
+        =
+value=3Dfroyo-amlogic-tv-e06ref-release-iptv>froyo-amlogic-tv-e06ref-rele=
+ase-iptv</OPTION>=20
+        <OPTION=20
+        =
+value=3Dfroyo-amlogic-tv-new-fe-driver>froyo-amlogic-tv-new-fe-driver</OP=
+TION>=20
+        <OPTION =
+value=3Dfroyo-amlogic-tv-release>froyo-amlogic-tv-release</OPTION>=20
+        <OPTION =
+value=3Dfroyo-amlogic-tv-to-m6>froyo-amlogic-tv-to-m6</OPTION>=20
+        <OPTION value=3Dfroyo-tv>froyo-tv</OPTION> <OPTION=20
+        value=3Dgingerbread-amlogic>gingerbread-amlogic</OPTION> <OPTION =
+
+        =
+value=3Dgingerbread-amlogic-2optop>gingerbread-amlogic-2optop</OPTION>=20
+        <OPTION =
+value=3Dgingerbread-amlogic-3g>gingerbread-amlogic-3g</OPTION>=20
+        <OPTION=20
+        =
+value=3Dgingerbread-amlogic-b01ref>gingerbread-amlogic-b01ref</OPTION>=20
+        <OPTION =
+value=3Dgingerbread-amlogic-b03>gingerbread-amlogic-b03</OPTION>=20
+        <OPTION=20
+        =
+value=3Dgingerbread-amlogic-b09ref>gingerbread-amlogic-b09ref</OPTION>=20
+        <OPTION=20
+        =
+value=3Dgingerbread-amlogic-b09ref-cts>gingerbread-amlogic-b09ref-cts</OP=
+TION>=20
+        <OPTION=20
+        =
+value=3Dgingerbread-amlogic-b09ref-outform>gingerbread-amlogic-b09ref-out=
+form</OPTION>=20
+        <OPTION=20
+        =
+value=3Dgingerbread-amlogic-b12ref>gingerbread-amlogic-b12ref</OPTION>=20
+        <OPTION=20
+        =
+value=3Dgingerbread-amlogic-b14ref>gingerbread-amlogic-b14ref</OPTION>=20
+        <OPTION=20
+        =
+value=3Dgingerbread-amlogic-c08ref>gingerbread-amlogic-c08ref</OPTION>=20
+        <OPTION=20
+        =
+value=3Dgingerbread-amlogic-c08ref-final>gingerbread-amlogic-c08ref-final=
+</OPTION>=20
+        <OPTION=20
+        =
+value=3Dgingerbread-amlogic-deinterlace>gingerbread-amlogic-deinterlace</=
+OPTION>=20
+        <OPTION=20
+        =
+value=3Dgingerbread-amlogic-dualdisp>gingerbread-amlogic-dualdisp</OPTION=
+>=20
+        <OPTION=20
+        =
+value=3Dgingerbread-amlogic-f04ref>gingerbread-amlogic-f04ref</OPTION>=20
+        <OPTION=20
+        =
+value=3Dgingerbread-amlogic-f08ref>gingerbread-amlogic-f08ref</OPTION>=20
+        <OPTION=20
+        =
+value=3Dgingerbread-amlogic-f09ref>gingerbread-amlogic-f09ref</OPTION>=20
+        <OPTION=20
+        =
+value=3Dgingerbread-amlogic-f13ref>gingerbread-amlogic-f13ref</OPTION>=20
+        <OPTION =
+value=3Dgingerbread-amlogic-m3>gingerbread-amlogic-m3</OPTION>=20
+        <OPTION=20
+        =
+value=3Dgingerbread-amlogic-midreference>gingerbread-amlogic-midreference=
+</OPTION>=20
+        <OPTION =
+value=3Dgingerbread-amlogic-mtc>gingerbread-amlogic-mtc</OPTION>=20
+        <OPTION=20
+        =
+value=3Dgingerbread-amlogic-mtc-4.0>gingerbread-amlogic-mtc-4.0</OPTION> =
+
+        <OPTION=20
+        =
+value=3Dgingerbread-amlogic-optimization>gingerbread-amlogic-optimization=
+</OPTION>=20
+        <OPTION =
+value=3Dgingerbread-amlogic-r2p2>gingerbread-amlogic-r2p2</OPTION>=20
+        <OPTION=20
+        =
+value=3Dgingerbread-amlogic-tv-backup>gingerbread-amlogic-tv-backup</OPTI=
+ON>=20
+        <OPTION value=3Dics-amlgoic>ics-amlgoic</OPTION> <OPTION =
+selected=20
+        value=3Dics-amlogic>ics-amlogic</OPTION> <OPTION=20
+        value=3Dics-amlogic-0702>ics-amlogic-0702</OPTION> <OPTION=20
+        value=3Dics-amlogic-b01ref>ics-amlogic-b01ref</OPTION> <OPTION=20
+        value=3Dics-amlogic-e03ref>ics-amlogic-e03ref</OPTION> <OPTION=20
+        value=3Dics-amlogic-e04ref>ics-amlogic-e04ref</OPTION> <OPTION=20
+        value=3Dics-amlogic-f04ref>ics-amlogic-f04ref</OPTION> <OPTION=20
+        value=3Dics-amlogic-f06ref>ics-amlogic-f06ref</OPTION> <OPTION=20
+        value=3Dics-amlogic-f06ref0214>ics-amlogic-f06ref0214</OPTION> =
+<OPTION=20
+        value=3Dics-amlogic-f07ref>ics-amlogic-f07ref</OPTION> <OPTION=20
+        value=3Dics-amlogic-f08ref>ics-amlogic-f08ref</OPTION> <OPTION=20
+        value=3Dics-amlogic-f08ref0308>ics-amlogic-f08ref0308</OPTION> =
+<OPTION=20
+        value=3Dics-amlogic-f08ref0511>ics-amlogic-f08ref0511</OPTION> =
+<OPTION=20
+        value=3Dics-amlogic-f09>ics-amlogic-f09</OPTION> <OPTION=20
+        =
+value=3Dics-amlogic-f11mp20120108ref>ics-amlogic-f11mp20120108ref</OPTION=
+>=20
+        <OPTION value=3Dics-amlogic-f11ref>ics-amlogic-f11ref</OPTION> =
+<OPTION=20
+        value=3Dics-amlogic-f16>ics-amlogic-f16</OPTION> <OPTION=20
+        value=3Dics-amlogic-f20>ics-amlogic-f20</OPTION> <OPTION=20
+        =
+value=3Dics-amlogic-f20-develope-video>ics-amlogic-f20-develope-video</OP=
+TION>=20
+        <OPTION value=3Dics-amlogic-f24>ics-amlogic-f24</OPTION> <OPTION =
+
+        value=3Dics-amlogic-f25>ics-amlogic-f25</OPTION> <OPTION=20
+        value=3Dics-amlogic-f26ref>ics-amlogic-f26ref</OPTION> <OPTION=20
+        =
+value=3Dics-amlogic-f26ref-m30625>ics-amlogic-f26ref-m30625</OPTION>=20
+        <OPTION value=3Dics-amlogic-f30ref>ics-amlogic-f30ref</OPTION> =
+<OPTION=20
+        value=3Dics-amlogic-f32ref>ics-amlogic-f32ref</OPTION> <OPTION=20
+        value=3Dics-amlogic-f35>ics-amlogic-f35</OPTION> <OPTION=20
+        value=3Dics-amlogic-g05ref>ics-amlogic-g05ref</OPTION> <OPTION=20
+        value=3Dics-amlogic-g06>ics-amlogic-g06</OPTION> <OPTION=20
+        value=3Dics-amlogic-iptv>ics-amlogic-iptv</OPTION> <OPTION=20
+        value=3Dics-amlogic-m30625>ics-amlogic-m30625</OPTION> <OPTION=20
+        =
+value=3Dics-amlogic-m30625-f08ref>ics-amlogic-m30625-f08ref</OPTION>=20
+        <OPTION =
+value=3Dics-amlogic-mbx-dongle>ics-amlogic-mbx-dongle</OPTION>=20
+        <OPTION value=3Dics-amlogic-mx0422>ics-amlogic-mx0422</OPTION> =
+<OPTION=20
+        value=3Dics-amlogic-mx0525>ics-amlogic-mx0525</OPTION> <OPTION=20
+        value=3Dics-amlogic-mx0525-cts>ics-amlogic-mx0525-cts</OPTION> =
+<OPTION=20
+        value=3Dics-amlogic-mx0625>ics-amlogic-mx0625</OPTION> <OPTION=20
+        =
+value=3Dics-amlogic-mx0625-0817-g06e4>ics-amlogic-mx0625-0817-g06e4</OPTI=
+ON>=20
+        <OPTION =
+value=3Dics-amlogic-mxdevelop>ics-amlogic-mxdevelop</OPTION>=20
+        <OPTION=20
+        =
+value=3Dics-amlogic-new-fe-driver>ics-amlogic-new-fe-driver</OPTION>=20
+        <OPTION =
+value=3Dics-amlogic-new-ubifs>ics-amlogic-new-ubifs</OPTION>=20
+        <OPTION=20
+        =
+value=3Dics-amlogic-openlinux0308new>ics-amlogic-openlinux0308new</OPTION=
+>=20
+        <OPTION=20
+        =
+value=3Dics-amlogic-openlinux0308new-f25>ics-amlogic-openlinux0308new-f25=
+</OPTION>=20
+        <OPTION=20
+        =
+value=3Dics-amlogic-openlinux0308new-f26>ics-amlogic-openlinux0308new-f26=
+</OPTION>=20
+        <OPTION value=3Dics-amlogic-reff19>ics-amlogic-reff19</OPTION> =
+<OPTION=20
+        value=3Dics-amlogic-reff19ref>ics-amlogic-reff19ref</OPTION> =
+<OPTION=20
+        value=3Dics-amlogic-tv>ics-amlogic-tv</OPTION> <OPTION=20
+        value=3Dm2-android>m2-android</OPTION> <OPTION=20
+        value=3Dm2_local>m2_local</OPTION> <OPTION=20
+        value=3Dm3_local>m3_local</OPTION> <OPTION=20
+        value=3Dmali-r2p4-02dev00>mali-r2p4-02dev00</OPTION> <OPTION=20
+        value=3Dmaster>master</OPTION> <OPTION=20
+        value=3Dmbx-m1-ics>mbx-m1-ics</OPTION> <OPTION=20
+        value=3Dmid-merge2140>mid-merge2140</OPTION> <OPTION=20
+        value=3Dmoon>moon</OPTION> <OPTION =
+value=3Dnand-test>nand-test</OPTION>=20
+        <OPTION value=3Dnand_base_ce>nand_base_ce</OPTION> <OPTION=20
+        value=3Dnftl_change_gcmode>nftl_change_gcmode</OPTION> <OPTION=20
+        value=3Dopenlinux0308new>openlinux0308new</OPTION></SELECT> =
+<INPUT value=3Dswitch type=3Dsubmit name=3D""></FORM></TD></TR>
+  <TR>
+    <TD class=3Dsub>Android ARM Linux kernel </TD>
+    <TD class=3D"sub right">Tim Yao</TD></TR></TBODY></TABLE>
+<TABLE class=3Dtabs>
+  <TBODY>
+  <TR>
+    <TD><A=20
+      =
+href=3D"http://10.8.9.5/m1-kernel-android/?h=3Dics-amlogic">summary</A><A=
+=20
+      =
+href=3D"http://10.8.9.5/m1-kernel-android/refs/?h=3Dics-amlogic&amp;id=3D=
+0f996b25e34ec79c0abf15535c5196cce0cd3caa">refs</A><A=20
+      =
+href=3D"http://10.8.9.5/m1-kernel-android/log/?h=3Dics-amlogic">log</A><A=
+=20
+      =
+href=3D"http://10.8.9.5/m1-kernel-android/tree/?h=3Dics-amlogic&amp;id=3D=
+0f996b25e34ec79c0abf15535c5196cce0cd3caa">tree</A><A=20
+      class=3Dactive=20
+      =
+href=3D"http://10.8.9.5/m1-kernel-android/commit/?h=3Dics-amlogic&amp;id=3D=
+0f996b25e34ec79c0abf15535c5196cce0cd3caa">commit</A><A=20
+      =
+href=3D"http://10.8.9.5/m1-kernel-android/diff/?h=3Dics-amlogic&amp;id=3D=
+0f996b25e34ec79c0abf15535c5196cce0cd3caa">diff</A><A=20
+      =
+href=3D"http://10.8.9.5/m1-kernel-android/about/?h=3Dics-amlogic">about</=
+A></TD>
+    <TD class=3Dform>
+      <FORM class=3Dright method=3Dget =
+action=3D/m1-kernel-android/log/><INPUT=20
+      value=3Dics-amlogic type=3Dhidden name=3Dh><INPUT=20
+      value=3D0f996b25e34ec79c0abf15535c5196cce0cd3caa type=3Dhidden =
+name=3Did><SELECT=20
+      name=3Dqt> <OPTION selected value=3Dgrep>log msg</OPTION> <OPTION=20
+        value=3Dauthor>author</OPTION> <OPTION =
+value=3Dcommitter>committer</OPTION>=20
+        <OPTION value=3Drange>range</OPTION></SELECT> <INPUT class=3Dtxt =
+size=3D10=20
+      type=3Dtext name=3Dq> <INPUT value=3Dsearch type=3Dsubmit>=20
+</FORM></TD></TR></TBODY></TABLE>
+<DIV class=3Dcontent>
+<DIV class=3Dcgit-panel><B>diff options</B>
+<FORM method=3Dget action=3D.><INPUT value=3Dics-amlogic type=3Dhidden =
+name=3Dh><INPUT=20
+value=3D0f996b25e34ec79c0abf15535c5196cce0cd3caa type=3Dhidden =
+name=3Did>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TD colSpan=3D2></TD>
+  <TR>
+    <TD class=3Dlabel>context:</TD>
+    <TD class=3Dctrl><SELECT onchange=3Dthis.form.submit(); =
+name=3Dcontext><OPTION=20
+        value=3D1>1</OPTION><OPTION value=3D2>2</OPTION><OPTION selected =
+
+        value=3D3>3</OPTION><OPTION value=3D4>4</OPTION><OPTION=20
+        value=3D5>5</OPTION><OPTION value=3D6>6</OPTION><OPTION=20
+        value=3D7>7</OPTION><OPTION value=3D8>8</OPTION><OPTION=20
+        value=3D9>9</OPTION><OPTION value=3D10>10</OPTION><OPTION=20
+        value=3D15>15</OPTION><OPTION value=3D20>20</OPTION><OPTION=20
+        value=3D25>25</OPTION><OPTION value=3D30>30</OPTION><OPTION=20
+        value=3D35>35</OPTION><OPTION =
+value=3D40>40</OPTION></SELECT></TD></TR>
+  <TR>
+    <TD class=3Dlabel>space:</TD>
+    <TD class=3Dctrl><SELECT onchange=3Dthis.form.submit();=20
+        name=3Dignorews><OPTION selected =
+value=3D0>include</OPTION><OPTION=20
+        value=3D1>ignore</OPTION></SELECT></TD></TR>
+  <TR>
+    <TD class=3Dlabel>mode:</TD>
+    <TD class=3Dctrl><SELECT onchange=3Dthis.form.submit(); =
+name=3Dss><OPTION=20
+        selected value=3D0>unified</OPTION><OPTION=20
+    value=3D1>ssdiff</OPTION></SELECT></TD></TR>
+  <TR>
+    <TD>
+    <TD=20
+  class=3Dctrl><NOSCRIPT><INPUT value=3Dreload =
+type=3Dsubmit></NOSCRIPT></TD></TR></TBODY></TABLE></FORM></DIV>
+<TABLE class=3Dcommit-info summary=3D"commit info">
+  <TBODY>
+  <TR>
+    <TH>author</TH>
+    <TD>sheng.luo &lt;sheng.luo@amlogic.com&gt;</TD>
+    <TD class=3Dright>2012-09-13 03:10:49 (GMT)</TD></TR>
+  <TR>
+    <TH>committer</TH>
+    <TD>sheng.luo &lt;sheng.luo@amlogic.com&gt;</TD>
+    <TD class=3Dright>2012-09-13 03:10:49 (GMT)</TD></TR>
+  <TR>
+    <TH>commit</TH>
+    <TD class=3Dsha1 colSpan=3D2><A=20
+      =
+href=3D"http://10.8.9.5/m1-kernel-android/commit/?h=3Dics-amlogic&amp;id=3D=
+0f996b25e34ec79c0abf15535c5196cce0cd3caa">0f996b25e34ec79c0abf15535c5196c=
+ce0cd3caa</A>=20
+      (<A=20
+      =
+href=3D"http://10.8.9.5/m1-kernel-android/patch/?id=3D0f996b25e34ec79c0ab=
+f15535c5196cce0cd3caa">patch</A>)</TD></TR>
+  <TR>
+    <TH>tree</TH>
+    <TD class=3Dsha1 colSpan=3D2><A=20
+      =
+href=3D"http://10.8.9.5/m1-kernel-android/tree/?h=3Dics-amlogic&amp;id=3D=
+0f996b25e34ec79c0abf15535c5196cce0cd3caa">0b49fdc6856eaf1560652f4dfab4ec4=
+b09723255</A></TD></TR>
+  <TR>
+    <TH>parent</TH>
+    <TD class=3Dsha1 colSpan=3D2><A=20
+      =
+href=3D"http://10.8.9.5/m1-kernel-android/commit/?h=3Dics-amlogic&amp;id=3D=
+696eb14258320ee17f353d84c601e4fa2348356c">696eb14258320ee17f353d84c601e4f=
+a2348356c</A>=20
+      (<A=20
+      =
+href=3D"http://10.8.9.5/m1-kernel-android/diff/?h=3Dics-amlogic&amp;id=3D=
+0f996b25e34ec79c0abf15535c5196cce0cd3caa&amp;id2=3D696eb14258320ee17f353d=
+84c601e4fa2348356c">diff</A>)</TD></TR></TBODY></TABLE>
+<DIV class=3Dcommit-subject>add sandisk 19nm and micron 20nm</DIV><DIV =
+class=3Dcommit-msg></DIV>
+<DIV class=3Ddiffstat-header><A=20
+href=3D"http://10.8.9.5/m1-kernel-android/diff/?h=3Dics-amlogic&amp;id=3D=
+0f996b25e34ec79c0abf15535c5196cce0cd3caa">Diffstat</A></DIV>
+<TABLE class=3Ddiffstat summary=3Ddiffstat>
+  <TBODY>
+  <TR>
+    <TD class=3Dmode>-rwxr-xr-x</TD>
+    <TD class=3Dupd><A=20
+      =
+href=3D"http://10.8.9.5/m1-kernel-android/diff/arch/arm/mach-meson3/inclu=
+de/mach/nand.h?h=3Dics-amlogic&amp;id=3D0f996b25e34ec79c0abf15535c5196cce=
+0cd3caa">arch/arm/mach-meson3/include/mach/nand.h</A></TD>
+    <TD class=3Dright>55</TD>
+    <TD class=3Dgraph>
+      <TABLE summary=3D"file diffstat" width=3D"100%">
+        <TBODY>
+        <TR>
+          <TD style=3D"WIDTH: 8.6%" class=3Dadd>
+          <TD style=3D"WIDTH: 0.3%" class=3Drem>
+          <TD style=3D"WIDTH: 91.1%" =
+class=3Dnone></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=3Dmode>-rwxr-xr-x</TD>
+    <TD class=3Dupd><A=20
+      =
+href=3D"http://10.8.9.5/m1-kernel-android/diff/drivers/amlogic/nand/aml_n=
+and.c?h=3Dics-amlogic&amp;id=3D0f996b25e34ec79c0abf15535c5196cce0cd3caa">=
+drivers/amlogic/nand/aml_nand.c</A></TD>
+    <TD class=3Dright>617</TD>
+    <TD class=3Dgraph>
+      <TABLE summary=3D"file diffstat" width=3D"100%">
+        <TBODY>
+        <TR>
+          <TD style=3D"WIDTH: 96.9%" class=3Dadd>
+          <TD style=3D"WIDTH: 3.1%" class=3Drem>
+          <TD style=3D"WIDTH: 0%" =
+class=3Dnone></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=3Dmode>-rwxr-xr-x</TD>
+    <TD class=3Dupd><A=20
+      =
+href=3D"http://10.8.9.5/m1-kernel-android/diff/drivers/mtd/nand/nand_ids.=
+c?h=3Dics-amlogic&amp;id=3D0f996b25e34ec79c0abf15535c5196cce0cd3caa">driv=
+ers/mtd/nand/nand_ids.c</A></TD>
+    <TD class=3Dright>1</TD>
+    <TD class=3Dgraph>
+      <TABLE summary=3D"file diffstat" width=3D"100%">
+        <TBODY>
+        <TR>
+          <TD style=3D"WIDTH: 0.2%" class=3Dadd>
+          <TD style=3D"WIDTH: 0%" class=3Drem>
+          <TD style=3D"WIDTH: 99.8%" =
+class=3Dnone></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=3Dmode>-rwxr-xr-x</TD>
+    <TD class=3Dupd><A=20
+      =
+href=3D"http://10.8.9.5/m1-kernel-android/diff/include/linux/mtd/nand.h?h=
+=3Dics-amlogic&amp;id=3D0f996b25e34ec79c0abf15535c5196cce0cd3caa">include=
+/linux/mtd/nand.h</A></TD>
+    <TD class=3Dright>1</TD>
+    <TD class=3Dgraph>
+      <TABLE summary=3D"file diffstat" width=3D"100%">
+        <TBODY>
+        <TR>
+          <TD style=3D"WIDTH: 0.2%" class=3Dadd>
+          <TD style=3D"WIDTH: 0%" class=3Drem>
+          <TD style=3D"WIDTH: 99.8%"=20
+  class=3Dnone></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV class=3Ddiffstat-summary>4 files changed, 653 insertions, 21 =
+deletions</DIV>
+<TABLE class=3Ddiff summary=3Ddiff>
+  <TBODY>
+  <TR><TD><DIV class=3Dhead>diff --git =
+a/arch/arm/mach-meson3/include/mach/nand.h =
+b/arch/arm/mach-meson3/include/mach/nand.h<BR>index 2afc46c..240244f =
+100755<BR>--- a/<A =
+href=3D"http://10.8.9.5/m1-kernel-android/tree/arch/arm/mach-meson3/inclu=
+de/mach/nand.h?h=3Dics-amlogic&amp;id=3D696eb14258320ee17f353d84c601e4fa2=
+348356c">arch/arm/mach-meson3/include/mach/nand.h</A><BR>+++ b/<A =
+href=3D"http://10.8.9.5/m1-kernel-android/tree/arch/arm/mach-meson3/inclu=
+de/mach/nand.h?h=3Dics-amlogic&amp;id=3D0f996b25e34ec79c0abf15535c5196cce=
+0cd3caa">arch/arm/mach-meson3/include/mach/nand.h</A></DIV><DIV =
+class=3Dhunk>@@ -307,6 +307,9 @@</DIV><DIV class=3Dctx> #define ENV_SIZE =
+(CONFIG_ENV_SIZE - (sizeof(uint32_t)))</DIV><DIV class=3Dctx> #define =
+NAND_SYS_PART_SIZE				0x10000000</DIV><DIV class=3Dctx> </DIV><DIV =
+class=3Dadd>+#define ENV_NAND_SCAN_BLK                            50 =
+</DIV><DIV class=3Dadd>+</DIV><DIV class=3Dadd>+</DIV><DIV class=3Dctx> =
+struct aml_nand_flash_dev {</DIV><DIV class=3Dctx> 	char =
+*name;</DIV><DIV class=3Dctx> 	u8 id[MAX_ID_LEN];</DIV><DIV =
+class=3Dhunk>@@ -403,7 +406,8 @@ struct aml_nand_bch_desc{</DIV><DIV =
+class=3Dctx> #define	NAND_CMD_TOSHIBA_SET_VALUE			0x55</DIV><DIV =
+class=3Dctx> #define	NAND_CMD_TOSHIBA_BEF_COMMAND1		0x26</DIV><DIV =
+class=3Dctx> #define	NAND_CMD_TOSHIBA_BEF_COMMAND2		0x5d</DIV><DIV =
+class=3Ddel>-#define   NAND_CMD_SAMSUNG_SET_VALUE			0XA1</DIV><DIV =
+class=3Dadd>+#define      NAND_CMD_SAMSUNG_SET_VALUE			0XA1</DIV><DIV =
+class=3Dadd>+#define      NAND_CMD_MICRON_SET_VALUE                      =
+ 0XEF</DIV><DIV class=3Dctx> </DIV><DIV class=3Dctx> //for =
+Hynix</DIV><DIV class=3Dctx> #define	HYNIX_26NM_8GB 		1		=
+//H27UCG8T2M</DIV><DIV class=3Dhunk>@@ -413,9 +417,35 @@ struct =
+aml_nand_bch_desc{</DIV><DIV class=3Dctx> //for Toshiba</DIV><DIV =
+class=3Dctx> #define	TOSHIBA_24NM 			20		//TC58NVG5D2HTA00</DIV><DIV =
+class=3Dctx> 										//TC58NVG6D2GTA00</DIV><DIV =
+class=3Ddel>-</DIV><DIV class=3Dadd>+//for SAMSUNG</DIV><DIV =
+class=3Dctx> #define	SUMSUNG_2XNM 			30	</DIV><DIV class=3Dctx> =
+</DIV><DIV class=3Dadd>+//for SANDISK</DIV><DIV class=3Dadd>+#define     =
+ SANDISK_19NM			40</DIV><DIV class=3Dadd>+</DIV><DIV =
+class=3Dadd>+#define      MICRON_20NM			50</DIV><DIV =
+class=3Dadd>+</DIV><DIV class=3Dadd>+#define      DYNAMIC_REG_NUM        =
+2</DIV><DIV class=3Dadd>+#define      DYNAMIC_REG_INIT_NUM        =
+9</DIV><DIV class=3Dadd>+#define      DYNAMIC_READ_CNT_LOWER       16 =
+</DIV><DIV class=3Dadd>+#define      DYNAMIC_READ_CNT_UPPER       =
+20</DIV><DIV class=3Dadd>+</DIV><DIV class=3Dadd>+#define      =
+DYNAMIC_READ_CASE_NUM        20</DIV><DIV class=3Dadd>+</DIV><DIV =
+class=3Dadd>+</DIV><DIV class=3Dadd>+#define	NAND_CMD_SANDISK_INIT_ONE			=
+	0x3B</DIV><DIV class=3Dadd>+#define	NAND_CMD_SANDISK_INIT_TWO				=
+0xB9</DIV><DIV class=3Dadd>+</DIV><DIV class=3Dadd>+#define	=
+NAND_CMD_SANDISK_LOAD_VALUE_ONE			0x53</DIV><DIV class=3Dadd>+#define	=
+NAND_CMD_SANDISK_LOAD_VALUE_TWO			0x54</DIV><DIV class=3Dadd>+</DIV><DIV =
+class=3Dadd>+#define	NAND_CMD_SANDISK_DYNAMIC_ENABLE			0xB6</DIV><DIV =
+class=3Dadd>+#define	NAND_CMD_SANDISK_DYNAMIC_DISABLE			0xD6</DIV><DIV =
+class=3Dadd>+#define 	NAND_CMD_SANDISK_SLC  						0xA2 </DIV><DIV =
+class=3Dadd>+</DIV><DIV class=3Dadd>+</DIV><DIV class=3Dadd>+</DIV><DIV =
+class=3Dadd>+</DIV><DIV class=3Dctx> </DIV><DIV class=3Dctx> struct =
+aml_nand_read_retry{</DIV><DIV class=3Dctx> 	u8	flag;</DIV><DIV =
+class=3Dhunk>@@ -444,10 +474,31 @@ struct =
+aml_nand_slc_program{</DIV><DIV class=3Dctx> 	void	=
+(*enter_enslc_mode)(struct mtd_info *mtd);</DIV><DIV class=3Dctx> =
+};</DIV><DIV class=3Dctx> </DIV><DIV class=3Dadd>+// this for sandisk =
+dynamic read</DIV><DIV class=3Dadd>+struct =
+aml_nand_dynamic_read{</DIV><DIV class=3Dadd>+	u8 slc_flag;</DIV><DIV =
+class=3Dadd>+	u8 dynamic_read_flag;</DIV><DIV class=3Dadd>+	u8 =
+read_case_num_max_lower_page;//Nmax	_lower_page</DIV><DIV class=3Dadd>+	=
+u8 read_case_num_max_upper_page;//Nmax_upper_page	</DIV><DIV =
+class=3Dadd>+	u8 cur_case_num_lower_page[MAX_CHIP_NUM];//N_lower_page	=
+</DIV><DIV class=3Dadd>+	u8 =
+cur_case_num_upper_page[MAX_CHIP_NUM];//N_upper_page</DIV><DIV =
+class=3Dadd>+	u8	reg_addr_init[DYNAMIC_REG_INIT_NUM];</DIV><DIV =
+class=3Dadd>+	u8	reg_addr_lower_page[DYNAMIC_REG_NUM];	</DIV><DIV =
+class=3Dadd>+	u8	reg_addr_upper_page[DYNAMIC_REG_NUM];	</DIV><DIV =
+class=3Dadd>+	char	=
+reg_offset_value_lower_page[MAX_CHIP_NUM][DYNAMIC_READ_CNT_LOWER][DYNAMIC=
+_REG_NUM];		</DIV><DIV class=3Dadd>+	char	=
+reg_offset_value_upper_page[MAX_CHIP_NUM][DYNAMIC_READ_CNT_UPPER][DYNAMIC=
+_REG_NUM];	</DIV><DIV class=3Dadd>+	void	(*dynamic_read_init)(struct =
+mtd_info *mtd);</DIV><DIV class=3Dadd>+	void	=
+(*dynamic_read_handle)(struct mtd_info *mtd, int page, int =
+chipnr);</DIV><DIV class=3Dadd>+	void	(*dynamic_read_exit)(struct =
+mtd_info *mtd, int chipnr);</DIV><DIV class=3Dadd>+	void	=
+(*exit_slc_mode)(struct mtd_info *mtd);</DIV><DIV class=3Dadd>+	void	=
+(*enter_slc_mode)(struct mtd_info *mtd);</DIV><DIV =
+class=3Dadd>+};</DIV><DIV class=3Dadd>+</DIV><DIV class=3Dctx> struct =
+new_tech_nand_t{</DIV><DIV class=3Dctx>     u8	type;</DIV><DIV =
+class=3Dctx>     struct aml_nand_slc_program slc_program_info;</DIV><DIV =
+class=3Dctx>     struct aml_nand_read_retry read_rety_info;</DIV><DIV =
+class=3Dadd>+    struct aml_nand_dynamic_read =
+dynamic_read_info;</DIV><DIV class=3Dctx> };</DIV><DIV class=3Dctx> =
+#endif</DIV><DIV class=3Dctx> struct aml_nand_chip {</DIV><DIV =
+class=3Dhead>diff --git a/drivers/amlogic/nand/aml_nand.c =
+b/drivers/amlogic/nand/aml_nand.c<BR>index 93babc9..9bebc89 =
+100755<BR>--- a/<A =
+href=3D"http://10.8.9.5/m1-kernel-android/tree/drivers/amlogic/nand/aml_n=
+and.c?h=3Dics-amlogic&amp;id=3D696eb14258320ee17f353d84c601e4fa2348356c">=
+drivers/amlogic/nand/aml_nand.c</A><BR>+++ b/<A =
+href=3D"http://10.8.9.5/m1-kernel-android/tree/drivers/amlogic/nand/aml_n=
+and.c?h=3Dics-amlogic&amp;id=3D0f996b25e34ec79c0abf15535c5196cce0cd3caa">=
+drivers/amlogic/nand/aml_nand.c</A></DIV><DIV class=3Dhunk>@@ -138,6 =
++138,19 @@ static struct nand_ecclayout aml_nand_oob_640 =3D {</DIV><DIV =
+class=3Dctx> 		 .length =3D 16}}
+</DIV><DIV class=3Dctx> };
+</DIV><DIV class=3Dctx>=20
+</DIV><DIV class=3Dadd>+static struct nand_ecclayout aml_nand_oob_744 =
+=3D {
+</DIV><DIV class=3Dadd>+	.eccbytes =3D 700,
+</DIV><DIV class=3Dadd>+	.oobfree =3D {
+</DIV><DIV class=3Dadd>+		{.offset =3D 0,
+</DIV><DIV class=3Dadd>+		 .length =3D 32}}
+</DIV><DIV class=3Dadd>+};
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+static struct nand_ecclayout aml_nand_oob_1280 =
+=3D {
+</DIV><DIV class=3Dadd>+	.eccbytes =3D 1200,
+</DIV><DIV class=3Dadd>+	.oobfree =3D {
+</DIV><DIV class=3Dadd>+		{.offset =3D 0,
+</DIV><DIV class=3Dadd>+		 .length =3D 32}}
+</DIV><DIV class=3Dadd>+};
+</DIV><DIV class=3Dctx>=20
+</DIV><DIV class=3Dctx> static unsigned default_environment_size =3D =
+(ENV_SIZE - sizeof(struct aml_nand_bbt_info));
+</DIV><DIV class=3Dctx> static uint8_t nand_boot_flag =3D 0;
+</DIV><DIV class=3Dhunk>@@ -157,6 +170,11 @@ struct aml_nand_flash_dev =
+aml_nand_flash_ids[] =3D {</DIV><DIV class=3Dctx> 	{"C revision 20nm =
+NAND 4GiB H27UBG8T2C", {NAND_MFR_HYNIX, 0xd7, 0x94, 0x91, 0x60, 0x44}, =
+8192, 4096, 0x200000, 640, 1, 16, 15, 0, (NAND_TIMING_MODE5 | =
+NAND_ECC_BCH16_MODE)},	//need readretry, disable two plane mode
+</DIV><DIV class=3Dctx> 	{"A revision 20nm NAND 8GiB H27UCG8T2A", =
+{NAND_MFR_HYNIX, 0xde, 0x94, 0xda, 0x74, 0xc4}, 8192, 8192, 0x200000, =
+640, 1, 16, 15, 0, (NAND_TIMING_MODE5 | NAND_ECC_BCH16_MODE )},	//need =
+readretry, disable two plane mode
+</DIV><DIV class=3Dctx> #endif
+</DIV><DIV class=3Dadd>+#ifdef NEW_NAND_SUPPORT
+</DIV><DIV class=3Dadd>+	{"B revision NAND 8GiB MT29F64G08CBABA", =
+{NAND_MFR_MICRON, 0x64, 0x44, 0x4B, 0xA9}, 8192, 8192, 0x200000, 744, 1, =
+16, 15, 0, (NAND_TIMING_MODE5 | NAND_ECC_BCH16_MODE )},=20
+</DIV><DIV class=3Dadd>+#endif
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+	{"A revision NAND 2GiB MT29F16G-A", =
+{NAND_MFR_MICRON, 0x48, 0x04, 0x4a, 0xa5}, 4096, 2048, 0x100000, 224, 1, =
+16, 15, 0, (NAND_TIMING_MODE5 | NAND_ECC_BCH16_MODE | =
+NAND_TWO_PLANE_MODE)},
+</DIV><DIV class=3Dctx> 	{"A revision NAND 4GiB MT29F32G-A", =
+{NAND_MFR_MICRON, 0xd7, 0x94, 0x3e, 0x84}, 4096, 4096, 0x80000, 218, 1, =
+16, 15, 0, (NAND_TIMING_MODE5 | NAND_ECC_BCH12_MODE | =
+NAND_TWO_PLANE_MODE)},
+</DIV><DIV class=3Dctx> 	{"A revision NAND 16GiB MT29F128G-A", =
+{NAND_MFR_MICRON, 0xd9, 0xd5, 0x3e, 0x88}, 4096, 16384, 0x80000, 218, 1, =
+16, 15, 0, (NAND_TIMING_MODE5 | NAND_ECC_BCH12_MODE | =
+NAND_TWO_PLANE_MODE)},
+</DIV><DIV class=3Dctx> 	{"B revision NAND 4GiB MT29F32G-B", =
+{NAND_MFR_MICRON, 0x68, 0x04, 0x46, 0x89}, 4096, 4096, 0x100000, 224, 1, =
+20, 15, 4, (NAND_TIMING_MODE5 | NAND_ECC_BCH16_MODE | =
+NAND_TWO_PLANE_MODE)},
+</DIV><DIV class=3Dhunk>@@ -179,6 +197,10 @@ struct aml_nand_flash_dev =
+aml_nand_flash_ids[] =3D {</DIV><DIV class=3Dctx> 	{"F serials NAND 8GiB =
+TC58NVG6D2GTA00", {NAND_MFR_TOSHIBA, 0xDE, 0x94, 0x82, 0x76, 0x56}, =
+8192, 8192, 0x200000, 640, 1, 20, 25, 0, (NAND_TIMING_MODE5 | =
+NAND_ECC_BCH16_MODE )}, 	//need readretry, disable two plane mode
+</DIV><DIV class=3Dctx> 	{"F serials NAND 8GiB TC58NVG7DCJTA00", =
+{NAND_MFR_TOSHIBA, 0xDE, 0x84, 0x93, 0x72, 0x57}, 16384, 8192, 0x400000, =
+1280, 1, 20, 25, 0, (NAND_TIMING_MODE5 | NAND_ECC_BCH16_MODE )},  //need =
+readretry, disable two plane mode
+</DIV><DIV class=3Dctx> #endif
+</DIV><DIV class=3Dadd>+#ifdef NEW_NAND_SUPPORT
+</DIV><DIV class=3Dadd>+	{"A serials NAND 8GiB SDTNQGAMA-008G ", =
+{NAND_MFR_SANDISK, 0xDE, 0x94, 0x93, 0x76, 0x57}, 16384, 8192, 0x400000, =
+1280, 1, 20, 25, 0, (NAND_TIMING_MODE5 | NAND_ECC_BCH16_MODE )},=09
+</DIV><DIV class=3Dadd>+	{"A serials NAND 4GiB SDTNQGAMA-004G ", =
+{NAND_MFR_SANDISK, 0xD7, 0x84, 0x93, 0x72, 0x57}, 16384, 4096, 0x400000, =
+1280, 1, 20, 25, 0, (NAND_TIMING_MODE5 | NAND_ECC_BCH16_MODE )},
+</DIV><DIV class=3Dadd>+#endif
+</DIV><DIV class=3Dctx>=20
+</DIV><DIV class=3Dctx> 	{"M Generation NAND 2GiB K9GAG08U0M", =
+{NAND_MFR_SAMSUNG, 0xD5, 0x14, 0xb6, 0x74}, 4096, 2048, 0x80000, 128, 1, =
+20, 15, 0, (NAND_TIMING_MODE5 | NAND_ECC_BCH8_MODE)},
+</DIV><DIV class=3Dctx> 	{"5 Generation NAND 2GiB K9GAG08X0D", =
+{NAND_MFR_SAMSUNG, 0xD5, 0x94, 0x29, 0x34, 0x41}, 4096, 2048, 0x80000, =
+218, 1, 20, 15, 0, (NAND_TIMING_MODE5 | NAND_ECC_BCH12_MODE | =
+NAND_TWO_PLANE_MODE)},
+</DIV><DIV class=3Dhunk>@@ -888,7 +910,7 @@ void =
+aml_nand_read_retry_handle_samsung(struct mtd_info *mtd, int =
+chipnr)</DIV><DIV class=3Dctx> 		return;
+</DIV><DIV class=3Dctx> =09
+</DIV><DIV class=3Dctx> 	cur_cnt =3D =
+aml_chip-&gt;new_nand_info.read_rety_info.cur_cnt[chipnr];
+</DIV><DIV class=3Ddel>-	printk("TOSHIBA NAND set partmeters here and =
+read_retry_cnt:%d\n", cur_cnt);
+</DIV><DIV class=3Dadd>+	printk("SAMSUNG NAND set partmeters here and =
+read_retry_cnt:%d\n", cur_cnt);
+</DIV><DIV class=3Dctx>=20
+</DIV><DIV class=3Dctx> 	aml_nand_set_reg_value_samsung(aml_chip, =
+&amp;aml_chip-&gt;new_nand_info.read_rety_info.reg_offset_value[0][cur_cn=
+t][0], &amp;aml_chip-&gt;new_nand_info.read_rety_info.reg_addr[0], =
+chipnr, aml_chip-&gt;new_nand_info.read_rety_info.reg_cnt);
+</DIV><DIV class=3Dctx> 	udelay(10); =09
+</DIV><DIV class=3Dhunk>@@ -912,6 +934,282 @@ void =
+aml_nand_read_retry_exit_samsung(struct mtd_info *mtd, int =
+chipnr)</DIV><DIV class=3Dctx>=20
+</DIV><DIV class=3Dctx>=20
+</DIV><DIV class=3Dctx> #endif
+</DIV><DIV =
+class=3Dadd>+/***********************************MICRON******************=
+******************/
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+uint8_t aml_nand_set_reg_value_micron(struct =
+aml_nand_chip *aml_chip,  uint8_t *buf, uint8_t *addr, int chipnr, int =
+cnt)
+</DIV><DIV class=3Dadd>+{
+</DIV><DIV class=3Dadd>+	struct nand_chip *chip =3D =
+&amp;aml_chip-&gt;chip;
+</DIV><DIV class=3Dadd>+	struct mtd_info *mtd =3D &amp;aml_chip-&gt;mtd;
+</DIV><DIV class=3Dadd>+	int i;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+	if(aml_chip-&gt;new_nand_info.type !=3D =
+MICRON_20NM)
+</DIV><DIV class=3Dadd>+		return 0;
+</DIV><DIV class=3Dadd>+	//printk("Enter %s\n", __func__);
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+	aml_chip-&gt;aml_nand_wait_devready(aml_chip, =
+chipnr);
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+	aml_chip-&gt;aml_nand_select_chip(aml_chip, =
+chipnr);
+</DIV><DIV class=3Dadd>+=09
+</DIV><DIV class=3Dadd>+		aml_chip-&gt;aml_nand_command(aml_chip, =
+NAND_CMD_MICRON_SET_VALUE, -1, -1, chipnr);
+</DIV><DIV class=3Dadd>+		udelay(2);
+</DIV><DIV class=3Dadd>+	      // chip-&gt;cmd_ctrl(mtd,0, =
+NAND_CTRL_CHANGE | NAND_NCE | NAND_ALE);
+</DIV><DIV class=3Dadd>+		//udelay(2);
+</DIV><DIV class=3Dadd>+	        chip-&gt;cmd_ctrl(mtd,addr[0], =
+NAND_CTRL_CHANGE | NAND_NCE | NAND_ALE);
+</DIV><DIV class=3Dadd>+		udelay(2);
+</DIV><DIV class=3Dadd>+		aml_chip-&gt;aml_nand_write_byte(aml_chip, =
+buf[0]);=09
+</DIV><DIV class=3Dadd>+		for(i =3D0; i &lt; 3; i++){
+</DIV><DIV class=3Dadd>+			udelay(2);=09
+</DIV><DIV class=3Dadd>+			aml_chip-&gt;aml_nand_write_byte(aml_chip, =
+0x0);	//for P2 P3 P4
+</DIV><DIV class=3Dadd>+		}
+</DIV><DIV class=3Dadd>+		printk("%s, REG(0x%x): 	value:0x%x\n", =
+__func__, addr[0], buf[0]);
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+	aml_chip-&gt;aml_nand_wait_devready(aml_chip, =
+chipnr);
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+	return 0;
+</DIV><DIV class=3Dadd>+}
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+void aml_nand_read_retry_handle_micron(struct =
+mtd_info *mtd, int chipnr)
+</DIV><DIV class=3Dadd>+{
+</DIV><DIV class=3Dadd>+	struct aml_nand_chip *aml_chip =3D =
+mtd_to_nand_chip(mtd);
+</DIV><DIV class=3Dadd>+	int cur_cnt;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+	if(aml_chip-&gt;new_nand_info.type !=3D =
+MICRON_20NM)
+</DIV><DIV class=3Dadd>+		return;=09
+</DIV><DIV class=3Dadd>+	//printk("Enter %s\n", __func__);
+</DIV><DIV class=3Dadd>+=09
+</DIV><DIV class=3Dadd>+	cur_cnt =3D =
+aml_chip-&gt;new_nand_info.read_rety_info.cur_cnt[chipnr];
+</DIV><DIV class=3Dadd>+	printk("MICRON NAND set partmeters here and =
+read_retry_cnt:%d\n", cur_cnt +1);
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+	aml_nand_set_reg_value_micron(aml_chip, =
+&amp;aml_chip-&gt;new_nand_info.read_rety_info.reg_offset_value[0][cur_cn=
+t][0],=20
+</DIV><DIV class=3Dadd>+		=
+&amp;aml_chip-&gt;new_nand_info.read_rety_info.reg_addr[0], chipnr, =
+aml_chip-&gt;new_nand_info.read_rety_info.reg_cnt);
+</DIV><DIV class=3Dadd>+	udelay(10); =09
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+	cur_cnt++;
+</DIV><DIV class=3Dadd>+	=
+aml_chip-&gt;new_nand_info.read_rety_info.cur_cnt[chipnr] =3D=20
+</DIV><DIV class=3Dadd>+		(cur_cnt &gt; =
+(aml_chip-&gt;new_nand_info.read_rety_info.retry_cnt-1)) ? 0 : cur_cnt;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+	return ;
+</DIV><DIV class=3Dadd>+}
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+void aml_nand_read_retry_exit_micron(struct =
+mtd_info *mtd, int chipnr)
+</DIV><DIV class=3Dadd>+{
+</DIV><DIV class=3Dadd>+=09
+</DIV><DIV class=3Dadd>+	struct aml_nand_chip *aml_chip =3D =
+mtd_to_nand_chip(mtd);
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+	if(aml_chip-&gt;new_nand_info.type !=3D =
+MICRON_20NM)
+</DIV><DIV class=3Dadd>+		return;
+</DIV><DIV class=3Dadd>+	//printk("Enter %s\n", __func__);
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+	int default_val =3D 0;
+</DIV><DIV class=3Dadd>+=09
+</DIV><DIV class=3Dadd>+	aml_nand_set_reg_value_micron(aml_chip, =
+&amp;default_val,
+</DIV><DIV class=3Dadd>+		=
+&amp;aml_chip-&gt;new_nand_info.read_rety_info.reg_addr[0], chipnr, =
+aml_chip-&gt;new_nand_info.read_rety_info.reg_cnt);
+</DIV><DIV class=3Dadd>+	udelay(10);=20
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+	return ;
+</DIV><DIV class=3Dadd>+}
+</DIV><DIV class=3Dadd>+
+</DIV><DIV =
+class=3Dadd>+/***********************************SANDISK*****************=
+*******************/
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+uint8_t aml_nand_dynamic_read_init_start(struct =
+aml_nand_chip *aml_chip, int chipnr)
+</DIV><DIV class=3Dadd>+{
+</DIV><DIV class=3Dadd>+	struct nand_chip *chip =3D =
+&amp;aml_chip-&gt;chip;
+</DIV><DIV class=3Dadd>+	struct mtd_info *mtd =3D &amp;aml_chip-&gt;mtd;
+</DIV><DIV class=3Dadd>+	uint8_t *buf;
+</DIV><DIV class=3Dadd>+	int i=3D0;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+	//printk("Enter %s\n", __func__);
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+	buf =3D =
+&amp;aml_chip-&gt;new_nand_info.dynamic_read_info.reg_addr_init[0];
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+	/*
+</DIV><DIV class=3Dadd>+	aml_chip-&gt;aml_nand_command(aml_chip, =
+NAND_CMD_RESET, -1, -1, chipnr);
+</DIV><DIV class=3Dadd>+	aml_chip-&gt;aml_nand_wait_devready(aml_chip, =
+chipnr);
+</DIV><DIV class=3Dadd>+	udelay(1);*/
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+	aml_chip-&gt;aml_nand_command(aml_chip, =
+NAND_CMD_SANDISK_INIT_ONE, -1, -1, chipnr);	//send cmd 0x3B=20
+</DIV><DIV class=3Dadd>+	udelay(1);
+</DIV><DIV class=3Dadd>+=09
+</DIV><DIV class=3Dadd>+	aml_chip-&gt;aml_nand_command(aml_chip, =
+NAND_CMD_SANDISK_INIT_TWO, -1, -1, chipnr);	//send cmd 0xB9
+</DIV><DIV class=3Dadd>+	udelay(1);
+</DIV><DIV class=3Dadd>+=09
+</DIV><DIV class=3Dadd>+	for(i=3D0; i&lt;DYNAMIC_REG_INIT_NUM; i++){
+</DIV><DIV class=3Dadd>+		aml_chip-&gt;aml_nand_command(aml_chip, =
+NAND_CMD_SANDISK_LOAD_VALUE_ONE, -1, -1, chipnr);	//send cmd 0x53=20
+</DIV><DIV class=3Dadd>+		udelay(1);
+</DIV><DIV class=3Dadd>+		chip-&gt;cmd_ctrl(mtd, buf[i], =
+NAND_CTRL_CHANGE | NAND_NCE | NAND_ALE);			//send 0x04 add
+</DIV><DIV class=3Dadd>+		udelay(1);
+</DIV><DIV class=3Dadd>+		aml_chip-&gt;aml_nand_write_byte(aml_chip,0x00 =
+);								//write 0x00 into  add
+</DIV><DIV class=3Dadd>+	}
+</DIV><DIV class=3Dadd>+	return 0;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+}
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+void aml_nand_dynamic_read_init(struct mtd_info =
+*mtd)
+</DIV><DIV class=3Dadd>+{
+</DIV><DIV class=3Dadd>+	struct aml_nand_chip *aml_chip =3D =
+mtd_to_nand_chip(mtd);
+</DIV><DIV class=3Dadd>+	struct nand_chip *chip =3D mtd-&gt;priv;
+</DIV><DIV class=3Dadd>+	int i;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+	if((aml_chip-&gt;new_nand_info.type &lt; 40))
+</DIV><DIV class=3Dadd>+		return 0;=09
+</DIV><DIV class=3Dadd>+=09
+</DIV><DIV class=3Dadd>+	//printk("Enter %s\n", __func__);
+</DIV><DIV class=3Dadd>+	=
+aml_chip-&gt;new_nand_info.dynamic_read_info.dynamic_read_flag =3D 1; =
+//DRF
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+	for(i=3D0; i&lt;aml_chip-&gt;chip_num; i++){
+</DIV><DIV class=3Dadd>+		if(aml_chip-&gt;valid_chip[i]){
+</DIV><DIV class=3Dadd>+			if((aml_chip-&gt;new_nand_info.type =3D=3D =
+SANDISK_19NM) ){
+</DIV><DIV class=3Dadd>+				aml_nand_dynamic_read_init_start(aml_chip, =
+i);
+</DIV><DIV class=3Dadd>+			}
+</DIV><DIV class=3Dadd>+			udelay(2);
+</DIV><DIV class=3Dadd>+		}	=09
+</DIV><DIV class=3Dadd>+	}
+</DIV><DIV class=3Dadd>+}
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+uint8_t =
+aml_nand_dynamic_read_load_register_value(struct aml_nand_chip =
+*aml_chip,  uint8_t *buf, uint8_t *addr, int chipnr, int cnt)
+</DIV><DIV class=3Dadd>+{
+</DIV><DIV class=3Dadd>+=09
+</DIV><DIV class=3Dadd>+	struct nand_chip *chip =3D =
+&amp;aml_chip-&gt;chip;
+</DIV><DIV class=3Dadd>+	struct mtd_info *mtd =3D &amp;aml_chip-&gt;mtd;
+</DIV><DIV class=3Dadd>+	int j;
+</DIV><DIV class=3Dadd>+=09
+</DIV><DIV class=3Dadd>+	if(aml_chip-&gt;new_nand_info.type &lt; 40)
+</DIV><DIV class=3Dadd>+		return 0;
+</DIV><DIV class=3Dadd>+=09
+</DIV><DIV class=3Dadd>+	//printk("Enter %s\n", __func__);
+</DIV><DIV class=3Dadd>+=09
+</DIV><DIV class=3Dadd>+	aml_chip-&gt;aml_nand_wait_devready(aml_chip, =
+chipnr);
+</DIV><DIV class=3Dadd>+=09
+</DIV><DIV class=3Dadd>+	aml_chip-&gt;aml_nand_select_chip(aml_chip, =
+chipnr);
+</DIV><DIV class=3Dadd>+=09
+</DIV><DIV class=3Dadd>+	aml_chip-&gt;aml_nand_command(aml_chip, =
+NAND_CMD_SANDISK_INIT_ONE, -1, -1, chipnr);//3B
+</DIV><DIV class=3Dadd>+	udelay(2);
+</DIV><DIV class=3Dadd>+	aml_chip-&gt;aml_nand_command(aml_chip, =
+NAND_CMD_SANDISK_INIT_TWO, -1, -1, chipnr);//B9
+</DIV><DIV class=3Dadd>+	udelay(2);
+</DIV><DIV class=3Dadd>+=09
+</DIV><DIV class=3Dadd>+	for (j=3D0; j&lt;cnt; j++){
+</DIV><DIV class=3Dadd>+		aml_chip-&gt;aml_nand_command(aml_chip, =
+NAND_CMD_SANDISK_LOAD_VALUE_ONE, -1, -1, chipnr); //53
+</DIV><DIV class=3Dadd>+		udelay(2);
+</DIV><DIV class=3Dadd>+		chip-&gt;cmd_ctrl(mtd, addr[j], =
+NAND_CTRL_CHANGE | NAND_NCE | NAND_ALE); //addr
+</DIV><DIV class=3Dadd>+		udelay(2);
+</DIV><DIV class=3Dadd>+		aml_chip-&gt;aml_nand_write_byte(aml_chip, =
+buf[j]);		=09
+</DIV><DIV class=3Dadd>+		printk("%s, REG(0x%x):	value:0x%x\n", =
+__func__, addr[j], buf[j]);
+</DIV><DIV class=3Dadd>+	}=09
+</DIV><DIV class=3Dadd>+		aml_chip-&gt;aml_nand_wait_devready(aml_chip, =
+chipnr);=09
+</DIV><DIV class=3Dadd>+		return 0;=09
+</DIV><DIV class=3Dadd>+}
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+void aml_nand_dynamic_read_handle(struct =
+mtd_info *mtd, int page, int chipnr)
+</DIV><DIV class=3Dadd>+{
+</DIV><DIV class=3Dadd>+	struct aml_nand_chip *aml_chip =3D =
+mtd_to_nand_chip(mtd);
+</DIV><DIV class=3Dadd>+	struct nand_chip *chip =3D =
+&amp;aml_chip-&gt;chip;
+</DIV><DIV class=3Dadd>+	u8 dynamic_reg_read_value[DYNAMIC_REG_NUM];=09
+</DIV><DIV class=3Dadd>+	u8 dynamic_reg_addr_value[DYNAMIC_REG_NUM];
+</DIV><DIV class=3Dadd>+	int cur_case_num_lower_page, =
+cur_case_num_upper_page , i;
+</DIV><DIV class=3Dadd>+	int pages_per_blk;
+</DIV><DIV class=3Dadd>+	if(aml_chip-&gt;new_nand_info.type =
+!=3DSANDISK_19NM)
+</DIV><DIV class=3Dadd>+		return;
+</DIV><DIV class=3Dadd>+=09
+</DIV><DIV class=3Dadd>+	//printk("Enter %s\n", __func__);
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+	=
+//aml_chip-&gt;new_nand_info.dynamic_read_info.dynamic_read_init(mtd);
+</DIV><DIV class=3Dadd>+	cur_case_num_upper_page =3D =
+aml_chip-&gt;new_nand_info.dynamic_read_info.cur_case_num_upper_page[chip=
+nr]; //N
+</DIV><DIV class=3Dadd>+	cur_case_num_lower_page =3D =
+aml_chip-&gt;new_nand_info.dynamic_read_info.cur_case_num_lower_page[chip=
+nr]; //N
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+=09
+</DIV><DIV class=3Dadd>+	pages_per_blk =3D (1 &lt;&lt; =
+(chip-&gt;phys_erase_shift - chip-&gt;page_shift));
+</DIV><DIV class=3Dadd>+	if(((page !=3D0) &amp;&amp; (page % 2 ) =3D=3D =
+0) || (page =3D=3D (pages_per_blk -1))){
+</DIV><DIV class=3Dadd>+		//cur_case_num_upper_page =3D =
+aml_chip-&gt;new_nand_info.dynamic_read_info.cur_case_num_upper_page[chip=
+nr]; //N
+</DIV><DIV class=3Dadd>+		printk("SANDISK NAND set partmeters here upper =
+page: %d and cur_case_num :%d\n", page, cur_case_num_upper_page);
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+		memset(&amp;dynamic_reg_read_value[0], 0, =
+DYNAMIC_REG_NUM);
+</DIV><DIV class=3Dadd>+	=09
+</DIV><DIV class=3Dadd>+		memset(&amp;dynamic_reg_addr_value[0], 0, =
+DYNAMIC_REG_NUM);
+</DIV><DIV class=3Dadd>+	=09
+</DIV><DIV class=3Dadd>+		for(i=3D0;i&lt;DYNAMIC_REG_NUM;i++){
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+			dynamic_reg_read_value[i] =3D  =
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_upper_page[=
+0][cur_case_num_upper_page][i];
+</DIV><DIV class=3Dadd>+			dynamic_reg_addr_value[i] =3D  =
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_addr_upper_page[i];=09
+</DIV><DIV class=3Dadd>+		}
+</DIV><DIV class=3Dadd>+			//dynamic_reg_read_value[0] |=3D =
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_lower_page[=
+0][cur_case_num_lower_page -1][0];
+</DIV><DIV class=3Dadd>+		=
+aml_nand_dynamic_read_load_register_value(aml_chip, =
+&amp;dynamic_reg_read_value[0], &amp;dynamic_reg_addr_value [0], chipnr, =
+DYNAMIC_REG_NUM);
+</DIV><DIV class=3Dadd>+		udelay(2);=20
+</DIV><DIV class=3Dadd>+	=09
+</DIV><DIV class=3Dadd>+		cur_case_num_upper_page++;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.cur_case_num_upper_page[chip=
+nr] =3D=20
+</DIV><DIV class=3Dadd>+			(cur_case_num_upper_page &gt; =
+DYNAMIC_READ_CNT_UPPER) ? 0 : cur_case_num_upper_page;
+</DIV><DIV class=3Dadd>+	=09
+</DIV><DIV class=3Dadd>+		//enable dynamic read
+</DIV><DIV class=3Dadd>+		aml_chip-&gt;aml_nand_command(aml_chip, =
+NAND_CMD_SANDISK_DYNAMIC_ENABLE, -1, -1, chipnr);//B6
+</DIV><DIV class=3Dadd>+		udelay(2);
+</DIV><DIV class=3Dadd>+	}else{
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+		//cur_case_num_lower_page =3D =
+aml_chip-&gt;new_nand_info.dynamic_read_info.cur_case_num_lower_page[chip=
+nr]; //N
+</DIV><DIV class=3Dadd>+		printk("SANDISK NAND set partmeters here lower =
+page: %d and cur_case_num :%d\n", page, cur_case_num_lower_page);
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+		memset(&amp;dynamic_reg_read_value[0], 0, =
+DYNAMIC_REG_NUM);
+</DIV><DIV class=3Dadd>+	=09
+</DIV><DIV class=3Dadd>+		memset(&amp;dynamic_reg_addr_value[0], 0, =
+DYNAMIC_REG_NUM);
+</DIV><DIV class=3Dadd>+	=09
+</DIV><DIV class=3Dadd>+		for(i=3D0;i&lt;DYNAMIC_REG_NUM;i++){
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+			dynamic_reg_read_value[i] =3D  =
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_lower_page[=
+0][cur_case_num_lower_page][i];	=09
+</DIV><DIV class=3Dadd>+			dynamic_reg_addr_value[i] =3D  =
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_addr_lower_page[i];=09
+</DIV><DIV class=3Dadd>+		}
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+			//dynamic_reg_read_value[0] |=3D =
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_upper_page[=
+0][cur_case_num_upper_page -1][0];
+</DIV><DIV class=3Dadd>+		=
+aml_nand_dynamic_read_load_register_value(aml_chip, =
+&amp;dynamic_reg_read_value[0], &amp;dynamic_reg_addr_value [0], chipnr, =
+DYNAMIC_REG_NUM);
+</DIV><DIV class=3Dadd>+		udelay(2); =09
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+		cur_case_num_lower_page++;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.cur_case_num_lower_page[chip=
+nr] =3D=20
+</DIV><DIV class=3Dadd>+			(cur_case_num_lower_page &gt; =
+DYNAMIC_READ_CNT_LOWER) ? 0 : cur_case_num_lower_page;
+</DIV><DIV class=3Dadd>+	=09
+</DIV><DIV class=3Dadd>+		//enable dynamic read
+</DIV><DIV class=3Dadd>+		aml_chip-&gt;aml_nand_command(aml_chip, =
+NAND_CMD_SANDISK_DYNAMIC_ENABLE, -1, -1, chipnr);//B6
+</DIV><DIV class=3Dadd>+		udelay(2);
+</DIV><DIV class=3Dadd>+	}
+</DIV><DIV class=3Dadd>+=09
+</DIV><DIV class=3Dadd>+}
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+void aml_nand_dynamic_read_exit(struct mtd_info =
+*mtd, int chipnr)
+</DIV><DIV class=3Dadd>+{
+</DIV><DIV class=3Dadd>+	struct aml_nand_chip *aml_chip =3D =
+mtd_to_nand_chip(mtd);
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+	if(aml_chip-&gt;new_nand_info.type !=3D =
+SANDISK_19NM)
+</DIV><DIV class=3Dadd>+		return;
+</DIV><DIV class=3Dadd>+=09
+</DIV><DIV class=3Dadd>+	//printk("Enter %s\n", __func__);
+</DIV><DIV class=3Dadd>+	aml_chip-&gt;aml_nand_wait_devready(aml_chip, =
+chipnr);
+</DIV><DIV class=3Dadd>+	aml_chip-&gt;aml_nand_command(aml_chip, =
+NAND_CMD_SANDISK_DYNAMIC_DISABLE, -1, -1, chipnr);//D6
+</DIV><DIV class=3Dadd>+	aml_chip-&gt;aml_nand_wait_devready(aml_chip, =
+chipnr);=09
+</DIV><DIV class=3Dadd>+=09
+</DIV><DIV class=3Dadd>+	aml_chip-&gt;aml_nand_wait_devready(aml_chip, =
+chipnr);
+</DIV><DIV class=3Dadd>+	aml_chip-&gt;aml_nand_command(aml_chip, =
+NAND_CMD_RESET, -1, -1, chipnr);
+</DIV><DIV class=3Dadd>+	aml_chip-&gt;aml_nand_wait_devready(aml_chip, =
+chipnr);=09
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+	return ;
+</DIV><DIV class=3Dadd>+}
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+void aml_nand_enter_slc_mode_sandisk(struct =
+mtd_info *mtd)
+</DIV><DIV class=3Dadd>+{
+</DIV><DIV class=3Dadd>+	struct aml_nand_chip *aml_chip =3D =
+mtd_to_nand_chip(mtd);
+</DIV><DIV class=3Dadd>+=09
+</DIV><DIV class=3Dadd>+	//printk("Enter %s\n", __func__);
+</DIV><DIV class=3Dadd>+	=
+aml_chip-&gt;new_nand_info.dynamic_read_info.slc_flag =3D 1;
+</DIV><DIV class=3Dadd>+	return;
+</DIV><DIV class=3Dadd>+}
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+void aml_nand_exit_slc_mode_sandisk(struct =
+mtd_info *mtd)
+</DIV><DIV class=3Dadd>+{
+</DIV><DIV class=3Dadd>+	struct aml_nand_chip *aml_chip =3D =
+mtd_to_nand_chip(mtd);
+</DIV><DIV class=3Dadd>+=09
+</DIV><DIV class=3Dadd>+	//printk("Enter %s\n", __func__);
+</DIV><DIV class=3Dadd>+	=
+aml_chip-&gt;new_nand_info.dynamic_read_info.slc_flag =3D 0;
+</DIV><DIV class=3Dadd>+	return;
+</DIV><DIV class=3Dadd>+}
+</DIV><DIV class=3Dadd>+
+</DIV><DIV =
+class=3Dadd>+/***********************************************************=
+*****************/
+</DIV><DIV class=3Dctx> static void aml_platform_hw_init(struct =
+aml_nand_chip *aml_chip)
+</DIV><DIV class=3Dctx> {
+</DIV><DIV class=3Dctx> 	struct clk *sys_clk;
+</DIV><DIV class=3Dhunk>@@ -1596,7 +1894,13 @@ static void =
+aml_nand_base_command(struct aml_nand_chip *aml_chip, unsigned =
+comma</DIV><DIV class=3Dctx> 		chip-&gt;cmd_ctrl(mtd, NAND_CMD_NONE, =
+NAND_NCE | NAND_CTRL_CHANGE);
+</DIV><DIV class=3Dctx> 	}
+</DIV><DIV class=3Dctx> 	else {
+</DIV><DIV class=3Ddel>-		chip-&gt;cmd_ctrl(mtd, command &amp; 0xff, =
+NAND_NCE | NAND_CLE | NAND_CTRL_CHANGE);
+</DIV><DIV class=3Dadd>+		if(( =
+aml_chip-&gt;new_nand_info.dynamic_read_info.slc_flag  =3D=3D 1 ) =
+&amp;&amp;( aml_chip-&gt;new_nand_info.type =3D=3D SANDISK_19NM ) =
+&amp;&amp;( (command =3D=3D NAND_CMD_ERASE1)
+</DIV><DIV class=3Dadd>+			|| (command =3D=3D NAND_CMD_READ0)|| (command =
+=3D=3D NAND_CMD_SEQIN) )){
+</DIV><DIV class=3Dadd>+			//printk("aml_nand_base_command: sent =
+NAND_CMD_SANDISK_SLC command\n");
+</DIV><DIV class=3Dadd>+			chip-&gt;cmd_ctrl(mtd, NAND_CMD_SANDISK_SLC =
+&amp; 0xff, NAND_NCE | NAND_CLE | NAND_CTRL_CHANGE);
+</DIV><DIV class=3Dadd>+			udelay(2);
+</DIV><DIV class=3Dadd>+		}
+</DIV><DIV class=3Dadd>+		chip-&gt;cmd_ctrl(mtd, command &amp; 0xff, =
+NAND_NCE | NAND_CLE | NAND_CTRL_CHANGE); //=20
+</DIV><DIV class=3Dctx>=20
+</DIV><DIV class=3Dctx> 		if (column !=3D -1 || page_addr !=3D -1) {
+</DIV><DIV class=3Dctx> 			int ctrl =3D NAND_CTRL_CHANGE | NAND_NCE | =
+NAND_ALE;
+</DIV><DIV class=3Dhunk>@@ -2054,7 +2358,9 @@ static int =
+aml_nand_read_page_hwecc(struct mtd_info *mtd, struct nand_chip =
+*chip</DIV><DIV class=3Dctx> 	unsigned pages_per_blk_shift =3D =
+(chip-&gt;phys_erase_shift - chip-&gt;page_shift);
+</DIV><DIV class=3Dctx> 	int user_byte_num =3D (((nand_page_size + =
+chip-&gt;ecc.size - 1) / chip-&gt;ecc.size) * =
+aml_chip-&gt;user_byte_mode);
+</DIV><DIV class=3Dctx> 	int error =3D 0, i =3D 0, stat =3D 0, j =3D 0, =
+page_addr, internal_chipnr =3D 1;
+</DIV><DIV class=3Ddel>-	int readretry_failed_cnt =3D 0;
+</DIV><DIV class=3Dadd>+	uint8_t *buf_tmp =3D buf;
+</DIV><DIV class=3Dadd>+	int readretry_failed_cnt =3D 0, pages_per_blk =
+=3D  (1 &lt;&lt; (chip-&gt;phys_erase_shift - chip-&gt;page_shift));
+</DIV><DIV class=3Dadd>+	int page_temp ;
+</DIV><DIV class=3Dctx> #if ((defined CONFIG_ARCH_MESON3) || (defined =
+CONFIG_ARCH_MESON6))
+</DIV><DIV class=3Dctx> 	int ran_mode =3D aml_chip-&gt;ran_mode;
+</DIV><DIV class=3Dctx> #endif
+</DIV><DIV class=3Dhunk>@@ -2249,14 +2555,35 @@ =
+dma_retry_plane1:</DIV><DIV class=3Dctx> 						 aml_chip-&gt;ran_mode =
+=3D ran_mode;=09
+</DIV><DIV class=3Dctx> #endif						=20
+</DIV><DIV class=3Dctx> #ifdef NEW_NAND_SUPPORT						=20
+</DIV><DIV class=3Ddel>-						if((aml_chip-&gt;new_nand_info.type) =
+&amp;&amp; (readretry_failed_cnt++ &lt; =
+aml_chip-&gt;new_nand_info.read_rety_info.retry_cnt)){
+</DIV><DIV class=3Dadd>+						if(((aml_chip-&gt;new_nand_info.type &lt; =
+40) ||(aml_chip-&gt;new_nand_info.type  =3D=3D MICRON_20NM))&amp;&amp; =
+(readretry_failed_cnt++ &lt; =
+aml_chip-&gt;new_nand_info.read_rety_info.retry_cnt)){
+</DIV><DIV class=3Dctx> 							printk("aml nand read data ecc failed at =
+page:%d  blk %d chip %d, readretry_failed_cnt:%d\n",=20
+</DIV><DIV class=3Dctx> 															page_addr, (page_addr &gt;&gt; =
+pages_per_blk_shift), i, readretry_failed_cnt);
+</DIV><DIV class=3Dctx> 							=
+aml_chip-&gt;new_nand_info.read_rety_info.read_retry_handle(mtd, i);
+</DIV><DIV class=3Dctx> 							aml_chip-&gt;aml_nand_command(aml_chip, =
+NAND_CMD_READ0, 0, page_addr, i);
+</DIV><DIV class=3Dctx> 							goto read_retry;
+</DIV><DIV class=3Ddel>-						}						=09
+</DIV><DIV class=3Ddel>-#endif					=09
+</DIV><DIV class=3Dadd>+						}=09
+</DIV><DIV class=3Dadd>+						page_temp =3D page - pages_per_blk* =
+(page_addr &gt;&gt; pages_per_blk_shift);
+</DIV><DIV class=3Dadd>+					=09
+</DIV><DIV class=3Dadd>+				=09
+</DIV><DIV class=3Dadd>+						if((aml_chip-&gt;new_nand_info.type =3D=3D =
+SANDISK_19NM) &amp;&amp; ((page_temp % 2 =3D=3D 0) &amp;&amp; (page_temp =
+!=3D0) ||(page_temp =3D=3D (pages_per_blk -1)))){
+</DIV><DIV class=3Dadd>+					=09
+</DIV><DIV class=3Dadd>+							if((aml_chip-&gt;new_nand_info.type) =
+&amp;&amp; (readretry_failed_cnt++ &lt; DYNAMIC_READ_CNT_UPPER)){
+</DIV><DIV class=3Dadd>+								printk("aml nand read data ecc failed at =
+page:%d  blk %d chip %d, readretry_failed_cnt:%d\n",=20
+</DIV><DIV class=3Dadd>+																page_addr, (page_addr &gt;&gt; =
+pages_per_blk_shift), i, readretry_failed_cnt);
+</DIV><DIV class=3Dadd>+								=
+aml_chip-&gt;new_nand_info.dynamic_read_info.dynamic_read_handle(mtd, =
+page_temp, i);
+</DIV><DIV class=3Dadd>+								aml_chip-&gt;aml_nand_command(aml_chip, =
+NAND_CMD_READ0, 0, page_addr, i);
+</DIV><DIV class=3Dadd>+								goto read_retry;
+</DIV><DIV class=3Dadd>+								}
+</DIV><DIV class=3Dadd>+						}else{						=09
+</DIV><DIV class=3Dadd>+							if((aml_chip-&gt;new_nand_info.type  =
+=3D=3D SANDISK_19NM) &amp;&amp; (readretry_failed_cnt++ =
+&lt;DYNAMIC_READ_CNT_LOWER)){
+</DIV><DIV class=3Dadd>+								printk("aml nand read data ecc failed at =
+page:%d  blk %d chip %d, readretry_failed_cnt:%d\n",=20
+</DIV><DIV class=3Dadd>+																page_addr, (page_addr &gt;&gt; =
+pages_per_blk_shift), i, readretry_failed_cnt);
+</DIV><DIV class=3Dadd>+								=
+aml_chip-&gt;new_nand_info.dynamic_read_info.dynamic_read_handle(mtd, =
+page_temp, i);
+</DIV><DIV class=3Dadd>+								aml_chip-&gt;aml_nand_command(aml_chip, =
+NAND_CMD_READ0, 0, page_addr, i);
+</DIV><DIV class=3Dadd>+								goto read_retry;
+</DIV><DIV class=3Dadd>+								}					=09
+</DIV><DIV class=3Dadd>+						}
+</DIV><DIV class=3Dadd>+#endif
+</DIV><DIV class=3Dctx> 						memset(buf, 0xff, nand_page_size);
+</DIV><DIV class=3Dctx> 						memset(oob_buf, 0xff, user_byte_num);
+</DIV><DIV class=3Dctx> 						printk("########%s %d read ecc failed here =
+at at page:%d, blk:%d chip[%d]\n", __func__, __LINE__, page_addr, =
+(page_addr &gt;&gt; pages_per_blk_shift), i);
+</DIV><DIV class=3Dhunk>@@ -2267,19 +2594,42 @@ =
+dma_retry_plane1:</DIV><DIV class=3Dctx> 						aml_chip-&gt;ran_mode =3D =
+ran_mode;
+</DIV><DIV class=3Dctx> #endif				=09
+</DIV><DIV class=3Dctx> #ifdef NEW_NAND_SUPPORT					=09
+</DIV><DIV class=3Ddel>-						if((aml_chip-&gt;ecc_cnt_cur &gt; =
+aml_chip-&gt;ecc_cnt_limit) ||((readretry_failed_cnt &gt; =
+(aml_chip-&gt;new_nand_info.read_rety_info.retry_cnt-2)) &amp;&amp; =
+aml_chip-&gt;new_nand_info.type)){
+</DIV><DIV class=3Dadd>+						if((aml_chip-&gt;ecc_cnt_cur &gt; =
+aml_chip-&gt;ecc_cnt_limit) ||((readretry_failed_cnt &gt; =
+(aml_chip-&gt;new_nand_info.read_rety_info.retry_cnt-2)) &amp;&amp;
+</DIV><DIV class=3Dadd>+							((aml_chip-&gt;new_nand_info.type &lt; =
+40) ||(aml_chip-&gt;new_nand_info.type  =3D=3D MICRON_20NM)))){
+</DIV><DIV class=3Dctx> 							printk("%s line:%d uncorrected =
+ecc_cnt_cur:%d, and limit:%d and at page:%d, blk:%d chip[%d], =
+readretry_failed_cnt:%d\n",
+</DIV><DIV class=3Dctx> 											__func__, __LINE__, =
+aml_chip-&gt;ecc_cnt_cur, aml_chip-&gt;ecc_cnt_limit, page_addr, =
+(page_addr &gt;&gt; pages_per_blk_shift), i, readretry_failed_cnt);
+</DIV><DIV class=3Dctx>=20
+</DIV><DIV class=3Dctx> 							mtd-&gt;ecc_stats.corrected++;
+</DIV><DIV class=3Dctx> 						}
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+						page_temp =3D page -pages_per_blk* =
+(page_addr &gt;&gt; pages_per_blk_shift);
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+						if((aml_chip-&gt;new_nand_info.type  =
+=3D=3D SANDISK_19NM) &amp;&amp;((page_temp % 2 =3D=3D 0) &amp;&amp; =
+(page_temp !=3D0) ||(page_temp =3D=3D (pages_per_blk-1)))){
+</DIV><DIV class=3Dadd>+							if((aml_chip-&gt;ecc_cnt_cur &gt; =
+aml_chip-&gt;ecc_cnt_limit) ||((readretry_failed_cnt =
+&gt;DYNAMIC_READ_CNT_UPPER) &amp;&amp; =
+aml_chip-&gt;new_nand_info.type)){
+</DIV><DIV class=3Dadd>+								printk("%s line:%d uncorrected =
+ecc_cnt_cur:%d, and limit:%d and at page:%d, blk:%d chip[%d], =
+readretry_failed_cnt:%d\n",
+</DIV><DIV class=3Dadd>+												__func__, __LINE__, =
+aml_chip-&gt;ecc_cnt_cur, aml_chip-&gt;ecc_cnt_limit, page_addr, =
+(page_addr &gt;&gt; pages_per_blk_shift), i, readretry_failed_cnt);
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+								mtd-&gt;ecc_stats.corrected++;
+</DIV><DIV class=3Dadd>+								}
+</DIV><DIV class=3Dadd>+						}else{
+</DIV><DIV class=3Dadd>+							if((aml_chip-&gt;ecc_cnt_cur &gt; =
+aml_chip-&gt;ecc_cnt_limit) ||((readretry_failed_cnt =
+&gt;DYNAMIC_READ_CNT_LOWER) &amp;&amp; (aml_chip-&gt;new_nand_info.type  =
+=3D=3D SANDISK_19NM))){
+</DIV><DIV class=3Dadd>+								printk("%s line:%d uncorrected =
+ecc_cnt_cur:%d, and limit:%d and at page:%d, blk:%d chip[%d], =
+readretry_failed_cnt:%d\n",
+</DIV><DIV class=3Dadd>+												__func__, __LINE__, =
+aml_chip-&gt;ecc_cnt_cur, aml_chip-&gt;ecc_cnt_limit, page_addr, =
+(page_addr &gt;&gt; pages_per_blk_shift), i, readretry_failed_cnt);
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+								mtd-&gt;ecc_stats.corrected++;
+</DIV><DIV class=3Dadd>+								}
+</DIV><DIV class=3Dadd>+			=09
+</DIV><DIV class=3Dadd>+							}
+</DIV><DIV class=3Dctx> #endif				=09
+</DIV><DIV class=3Dctx> 						mtd-&gt;ecc_stats.corrected +=3D stat;
+</DIV><DIV class=3Dctx> 					}
+</DIV><DIV class=3Dctx> #ifdef NEW_NAND_SUPPORT
+</DIV><DIV class=3Ddel>-					if(readretry_failed_cnt &amp;&amp; =
+aml_chip-&gt;new_nand_info.read_rety_info.read_retry_exit){
+</DIV><DIV class=3Dadd>+					if(((aml_chip-&gt;new_nand_info.type &lt; =
+40) ||(aml_chip-&gt;new_nand_info.type  =3D=3D MICRON_20NM)) &amp;&amp; =
+(readretry_failed_cnt) &amp;&amp; =
+(aml_chip-&gt;new_nand_info.read_rety_info.read_retry_exit)){
+</DIV><DIV class=3Dctx> 						=
+aml_chip-&gt;new_nand_info.read_rety_info.read_retry_exit(mtd, i);
+</DIV><DIV class=3Dctx> 					}
+</DIV><DIV class=3Dadd>+					if( (aml_chip-&gt;new_nand_info.type =3D=3D =
+SANDISK_19NM) &amp;&amp; (readretry_failed_cnt) &amp;&amp; =
+(aml_chip-&gt;new_nand_info.dynamic_read_info.dynamic_read_exit)){
+</DIV><DIV class=3Dadd>+							=
+aml_chip-&gt;new_nand_info.dynamic_read_info.dynamic_read_exit(mtd, i);
+</DIV><DIV class=3Dadd>+					}
+</DIV><DIV class=3Dctx> #endif
+</DIV><DIV class=3Dctx> 					oob_buf +=3D user_byte_num;
+</DIV><DIV class=3Dctx> 					buf +=3D nand_page_size;
+</DIV><DIV class=3Dhunk>@@ -2458,7 +2808,8 @@ static int =
+aml_nand_read_oob(struct mtd_info *mtd, struct nand_chip *chip, int =
+p</DIV><DIV class=3Dctx> 	//unsigned nand_read_size =3D ((readlen / =
+(aml_chip-&gt;user_byte_mode * aml_chip-&gt;plane_num)) * =
+chip-&gt;ecc.size);
+</DIV><DIV class=3Dctx> 	unsigned nand_read_size =3D ((readlen / =
+aml_chip-&gt;user_byte_mode) * chip-&gt;ecc.size);
+</DIV><DIV class=3Dctx> 	unsigned read_chip_num =3D (((nand_read_size + =
+(aml_chip-&gt;plane_num * nand_page_size) - 1) / (aml_chip-&gt;plane_num =
+* nand_page_size)));
+</DIV><DIV class=3Ddel>-	int readretry_failed_cnt =3D 0;
+</DIV><DIV class=3Dadd>+	int readretry_failed_cnt =3D 0, pages_per_blk =
+=3D  (1 &lt;&lt; (chip-&gt;phys_erase_shift - chip-&gt;page_shift));
+</DIV><DIV class=3Dadd>+	int page_temp;
+</DIV><DIV class=3Dctx> #if ((defined CONFIG_ARCH_MESON3) || (defined =
+CONFIG_ARCH_MESON6))
+</DIV><DIV class=3Dctx> 	int ran_mode =3D aml_chip-&gt;ran_mode;
+</DIV><DIV class=3Dctx> #endif
+</DIV><DIV class=3Dhunk>@@ -2679,13 +3030,32 @@ =
+dma_retry_plane1:</DIV><DIV class=3Dctx> 						 aml_chip-&gt;ran_mode =
+=3D ran_mode;							=20
+</DIV><DIV class=3Dctx> #endif						=20
+</DIV><DIV class=3Dctx> #ifdef NEW_NAND_SUPPORT						=20
+</DIV><DIV class=3Ddel>-						if((aml_chip-&gt;new_nand_info.type) =
+&amp;&amp; (readretry_failed_cnt++ &lt; =
+aml_chip-&gt;new_nand_info.read_rety_info.retry_cnt)){						=09
+</DIV><DIV class=3Dadd>+						if(((aml_chip-&gt;new_nand_info.type &lt; =
+40) ||(aml_chip-&gt;new_nand_info.type =3D=3D MICRON_20NM) )&amp;&amp; =
+(readretry_failed_cnt++ &lt; =
+aml_chip-&gt;new_nand_info.read_rety_info.retry_cnt)){						=09
+</DIV><DIV class=3Dctx> 							printk("aml nand read oob failed at =
+page:%d  blk %d chip %d, readretry_failed_cnt:%d\n",=20
+</DIV><DIV class=3Dctx> 													page_addr, (page_addr &gt;&gt; =
+pages_per_blk_shift), i, readretry_failed_cnt);
+</DIV><DIV class=3Dctx> 							=
+aml_chip-&gt;new_nand_info.read_rety_info.read_retry_handle(mtd, i);
+</DIV><DIV class=3Dctx> 							aml_chip-&gt;aml_nand_command(aml_chip, =
+NAND_CMD_READ0, 0, page_addr, i);
+</DIV><DIV class=3Dctx> 							goto read_retry;
+</DIV><DIV class=3Dctx> 						}
+</DIV><DIV class=3Dadd>+						page_temp =3D page -pages_per_blk* =
+(page_addr &gt;&gt; pages_per_blk_shift);
+</DIV><DIV class=3Dadd>+						if((aml_chip-&gt;new_nand_info.type =3D=3D =
+SANDISK_19NM) &amp;&amp; ((page_temp % 2 =3D=3D 0) &amp;&amp; (page_temp =
+!=3D0) ||(page_temp =3D=3D (pages_per_blk-1)))){
+</DIV><DIV class=3Dadd>+							if((aml_chip-&gt;new_nand_info.type) =
+&amp;&amp; (readretry_failed_cnt++ &lt; DYNAMIC_READ_CNT_UPPER)){
+</DIV><DIV class=3Dadd>+								printk("aml nand read data ecc failed at =
+page:%d  blk %d chip %d, readretry_failed_cnt:%d\n",=20
+</DIV><DIV class=3Dadd>+																page_addr, (page_addr &gt;&gt; =
+pages_per_blk_shift), i, readretry_failed_cnt);
+</DIV><DIV class=3Dadd>+								=
+aml_chip-&gt;new_nand_info.dynamic_read_info.dynamic_read_handle(mtd, =
+page_temp, i);
+</DIV><DIV class=3Dadd>+								aml_chip-&gt;aml_nand_command(aml_chip, =
+NAND_CMD_READ0, 0, page_addr, i);
+</DIV><DIV class=3Dadd>+								goto read_retry;
+</DIV><DIV class=3Dadd>+								}
+</DIV><DIV class=3Dadd>+						}else{						=09
+</DIV><DIV class=3Dadd>+							if((aml_chip-&gt;new_nand_info.type =
+=3D=3D SANDISK_19NM) &amp;&amp; (readretry_failed_cnt++ =
+&lt;DYNAMIC_READ_CNT_LOWER)){
+</DIV><DIV class=3Dadd>+								printk("aml nand read data ecc failed at =
+page:%d  blk %d chip %d, readretry_failed_cnt:%d\n",=20
+</DIV><DIV class=3Dadd>+																page_addr, (page_addr &gt;&gt; =
+pages_per_blk_shift), i, readretry_failed_cnt);
+</DIV><DIV class=3Dadd>+								=
+aml_chip-&gt;new_nand_info.dynamic_read_info.dynamic_read_handle(mtd, =
+page_temp, i);
+</DIV><DIV class=3Dadd>+								aml_chip-&gt;aml_nand_command(aml_chip, =
+NAND_CMD_READ0, 0, page_addr, i);
+</DIV><DIV class=3Dadd>+								goto read_retry;
+</DIV><DIV class=3Dadd>+								}					=09
+</DIV><DIV class=3Dadd>+						}
+</DIV><DIV class=3Dadd>+			=09
+</DIV><DIV class=3Dctx> #endif
+</DIV><DIV class=3Dctx> 						printk("########%s %d read oob failed here =
+at at page:%d, blk:%d chip[%d]\n", __func__, __LINE__, page_addr, =
+(page_addr &gt;&gt; pages_per_blk_shift), i);
+</DIV><DIV class=3Dctx> 					=09
+</DIV><DIV class=3Dhunk>@@ -2697,19 +3067,41 @@ =
+dma_retry_plane1:</DIV><DIV class=3Dctx> 						aml_chip-&gt;ran_mode =3D =
+ran_mode;
+</DIV><DIV class=3Dctx> #endif					=09
+</DIV><DIV class=3Dctx> #ifdef NEW_NAND_SUPPORT					=09
+</DIV><DIV class=3Ddel>-						if((aml_chip-&gt;ecc_cnt_cur &gt; =
+aml_chip-&gt;ecc_cnt_limit) ||((readretry_failed_cnt &gt; =
+(aml_chip-&gt;new_nand_info.read_rety_info.retry_cnt-2)) &amp;&amp; =
+aml_chip-&gt;new_nand_info.type)){
+</DIV><DIV class=3Dadd>+						if((aml_chip-&gt;ecc_cnt_cur &gt; =
+aml_chip-&gt;ecc_cnt_limit) ||((readretry_failed_cnt &gt; =
+(aml_chip-&gt;new_nand_info.read_rety_info.retry_cnt-2))
+</DIV><DIV class=3Dadd>+							&amp;&amp; =
+((aml_chip-&gt;new_nand_info.type &lt; 40) =
+||(aml_chip-&gt;new_nand_info.type =3D=3D MICRON_20NM) ))){
+</DIV><DIV class=3Dctx> 							printk("%s line:%d uncorrected =
+ecc_cnt_cur:%d, and limit:%d and at page:%d, blk:%d chip[%d], =
+readretry_failed_cnt:%d\n",
+</DIV><DIV class=3Dctx> 											__func__, __LINE__, =
+aml_chip-&gt;ecc_cnt_cur, aml_chip-&gt;ecc_cnt_limit, page_addr, =
+(page_addr &gt;&gt; pages_per_blk_shift), i, readretry_failed_cnt);
+</DIV><DIV class=3Dctx> 				=09
+</DIV><DIV class=3Dctx> 							mtd-&gt;ecc_stats.corrected++;
+</DIV><DIV class=3Dctx> 						}
+</DIV><DIV class=3Dadd>+						page_temp =3D page -pages_per_blk* =
+(page_addr &gt;&gt; pages_per_blk_shift);
+</DIV><DIV class=3Dadd>+						if((aml_chip-&gt;new_nand_info.type =3D=3D =
+SANDISK_19NM) &amp;&amp;((page_temp % 2 =3D=3D 0) &amp;&amp; (page_temp =
+!=3D0) ||(page_temp =3D=3D (pages_per_blk-1)))){
+</DIV><DIV class=3Dadd>+							if((aml_chip-&gt;ecc_cnt_cur &gt; =
+aml_chip-&gt;ecc_cnt_limit) ||((readretry_failed_cnt =
+&gt;DYNAMIC_READ_CNT_UPPER) &amp;&amp; =
+aml_chip-&gt;new_nand_info.type)){
+</DIV><DIV class=3Dadd>+								printk("%s line:%d uncorrected =
+ecc_cnt_cur:%d, and limit:%d and at page:%d, blk:%d chip[%d], =
+readretry_failed_cnt:%d\n",
+</DIV><DIV class=3Dadd>+												__func__, __LINE__, =
+aml_chip-&gt;ecc_cnt_cur, aml_chip-&gt;ecc_cnt_limit, page_addr, =
+(page_addr &gt;&gt; pages_per_blk_shift), i, readretry_failed_cnt);
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+								mtd-&gt;ecc_stats.corrected++;
+</DIV><DIV class=3Dadd>+								}
+</DIV><DIV class=3Dadd>+						}else{
+</DIV><DIV class=3Dadd>+							if((aml_chip-&gt;ecc_cnt_cur &gt; =
+aml_chip-&gt;ecc_cnt_limit) ||((readretry_failed_cnt =
+&gt;DYNAMIC_READ_CNT_LOWER) &amp;&amp; aml_chip-&gt;new_nand_info.type =
+=3D=3D SANDISK_19NM)){
+</DIV><DIV class=3Dadd>+								printk("%s line:%d uncorrected =
+ecc_cnt_cur:%d, and limit:%d and at page:%d, blk:%d chip[%d], =
+readretry_failed_cnt:%d\n",
+</DIV><DIV class=3Dadd>+												__func__, __LINE__, =
+aml_chip-&gt;ecc_cnt_cur, aml_chip-&gt;ecc_cnt_limit, page_addr, =
+(page_addr &gt;&gt; pages_per_blk_shift), i, readretry_failed_cnt);
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+								mtd-&gt;ecc_stats.corrected++;
+</DIV><DIV class=3Dadd>+								}
+</DIV><DIV class=3Dadd>+			=09
+</DIV><DIV class=3Dadd>+							}
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dctx> #endif
+</DIV><DIV class=3Dctx> 						mtd-&gt;ecc_stats.corrected +=3D stat;
+</DIV><DIV class=3Dctx> 					}
+</DIV><DIV class=3Dctx> #ifdef NEW_NAND_SUPPORT
+</DIV><DIV class=3Ddel>-					if(readretry_failed_cnt &amp;&amp; =
+aml_chip-&gt;new_nand_info.read_rety_info.read_retry_exit){
+</DIV><DIV class=3Dadd>+					if(((aml_chip-&gt;new_nand_info.type &lt; =
+40) ||(aml_chip-&gt;new_nand_info.type =3D=3D MICRON_20NM) )&amp;&amp; =
+(readretry_failed_cnt) &amp;&amp; =
+(aml_chip-&gt;new_nand_info.read_rety_info.read_retry_exit)){
+</DIV><DIV class=3Dctx> 						=
+aml_chip-&gt;new_nand_info.read_rety_info.read_retry_exit(mtd, i);
+</DIV><DIV class=3Dctx> 					}
+</DIV><DIV class=3Dadd>+					if( (aml_chip-&gt;new_nand_info.type =3D=3D =
+SANDISK_19NM) &amp;&amp; (readretry_failed_cnt) &amp;&amp; =
+(aml_chip-&gt;new_nand_info.dynamic_read_info.dynamic_read_exit)){
+</DIV><DIV class=3Dadd>+							=
+aml_chip-&gt;new_nand_info.dynamic_read_info.dynamic_read_exit(mtd, i);
+</DIV><DIV class=3Dadd>+						}
+</DIV><DIV class=3Dctx> #endif
+</DIV><DIV class=3Dctx>=20
+</DIV><DIV class=3Dctx> all_ff:
+</DIV><DIV class=3Dhunk>@@ -2834,7 +3226,7 @@ static int =
+aml_nand_block_markbad(struct mtd_info *mtd, loff_t ofs)</DIV><DIV =
+class=3Dctx> 	mtd_erase_shift =3D fls(mtd-&gt;erasesize) - 1;
+</DIV><DIV class=3Dctx> 	blk_addr =3D (int)(ofs &gt;&gt; =
+mtd_erase_shift);
+</DIV><DIV class=3Dctx> 	if (aml_chip-&gt;block_status !=3D NULL) {
+</DIV><DIV class=3Ddel>-		if (aml_chip-&gt;block_status[blk_addr] =3D=3D =
+NAND_BLOCK_BAD) {
+</DIV><DIV class=3Dadd>+		if ((aml_chip-&gt;block_status[blk_addr] =
+=3D=3D NAND_BLOCK_BAD)||(aml_chip-&gt;block_status[blk_addr] =3D=3D =
+NAND_FACTORY_BAD)) {
+</DIV><DIV class=3Dctx> 			return 0;
+</DIV><DIV class=3Dctx> 		}
+</DIV><DIV class=3Dctx> 		else if (aml_chip-&gt;block_status[blk_addr] =
+=3D=3D NAND_BLOCK_GOOD) {
+</DIV><DIV class=3Dhunk>@@ -2932,7 +3324,10 @@ static struct =
+aml_nand_flash_dev *aml_nand_get_flash_type(struct mtd_info =
+*mtd,</DIV><DIV class=3Dctx> 	u8 dev_id_toshiba_24nm_8g[MAX_ID_LEN] =3D =
+{NAND_MFR_TOSHIBA, 0xDE, 0x94, 0x82, 0x76, 0x56};
+</DIV><DIV class=3Dctx> 	u8 dev_id_toshiba_19nm_8g[MAX_ID_LEN] =3D =
+{NAND_MFR_TOSHIBA, 0xDE, 0x84, 0x93, 0x72, 0x57};
+</DIV><DIV class=3Dctx> 	u8 dev_id_samsung_2xnm_8g[MAX_ID_LEN] =3D =
+{NAND_MFR_SAMSUNG, 0xDE, 0xD5, 0x7E, 0x68, 0x44};=09
+</DIV><DIV class=3Ddel>-	u8 dev_id_samsung_2xnm_4g[MAX_ID_LEN] =3D =
+{NAND_MFR_SAMSUNG, 0xD7, 0x94, 0x7e, 0x64, 0x44};=09
+</DIV><DIV class=3Dadd>+	u8 dev_id_samsung_2xnm_4g[MAX_ID_LEN] =3D =
+{NAND_MFR_SAMSUNG, 0xD7, 0x94, 0x7e, 0x64, 0x44};	=09
+</DIV><DIV class=3Dadd>+	u8 dev_id_sandisk_19nm_8g[MAX_ID_LEN] =3D =
+{NAND_MFR_SANDISK, 0xDE, 0x94, 0x93, 0x76, 0x57};=09
+</DIV><DIV class=3Dadd>+	u8 dev_id_sandisk_19nm_4g[MAX_ID_LEN] =3D  =
+{NAND_MFR_SANDISK, 0xD7, 0x84, 0x93, 0x72, 0x57};
+</DIV><DIV class=3Dadd>+	u8 dev_id_micron_20nm_8g[MAX_ID_LEN] =3D =
+{NAND_MFR_MICRON, 0x64, 0x44, 0x4B, 0xA9};
+</DIV><DIV class=3Dctx> #endif
+</DIV><DIV class=3Dctx> 	//int tmp_id, tmp_manf;
+</DIV><DIV class=3Dctx>=20
+</DIV><DIV class=3Dhunk>@@ -3442,7 +3837,175 @@ static struct =
+aml_nand_flash_dev *aml_nand_get_flash_type(struct mtd_info =
+*mtd,</DIV><DIV class=3Dctx> =09
+</DIV><DIV class=3Dctx> 	=
+aml_chip-&gt;new_nand_info.read_rety_info.read_retry_handle =3D =
+aml_nand_read_retry_handle_samsung;
+</DIV><DIV class=3Dctx> 	=
+aml_chip-&gt;new_nand_info.read_rety_info.read_retry_exit =3D =
+aml_nand_read_retry_exit_samsung;
+</DIV><DIV class=3Dadd>+}
+</DIV><DIV class=3Dadd>+	else  if((!strncmp((char*)type-&gt;id, =
+(char*)dev_id_sandisk_19nm_8g, strlen((const =
+char*)aml_nand_flash_ids[i].id))) ||
+</DIV><DIV class=3Dadd>+		(!strncmp((char*)type-&gt;id, =
+(char*)dev_id_sandisk_19nm_4g, strlen((const =
+char*)aml_nand_flash_ids[i].id)))){
+</DIV><DIV class=3Dadd>+		aml_chip-&gt;new_nand_info.type =3D  =
+SANDISK_19NM;	=09
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.dynamic_read_flag =3D 0; =
+//DRF
+</DIV><DIV class=3Dadd>+	=09
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.slc_flag =3D 0; //slc_mode
+</DIV><DIV class=3Dadd>+	=09
+</DIV><DIV class=3Dadd>+		=
+memset(&amp;aml_chip-&gt;new_nand_info.dynamic_read_info.cur_case_num_low=
+er_page[0], 0, MAX_CHIP_NUM);
+</DIV><DIV class=3Dadd>+		=
+memset(&amp;aml_chip-&gt;new_nand_info.dynamic_read_info.cur_case_num_upp=
+er_page[0], 0, MAX_CHIP_NUM);
+</DIV><DIV class=3Dadd>+	=09
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_addr_init[0] =3D 0x04;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_addr_init[1] =3D 0x05;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_addr_init[2] =3D 0x06;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_addr_init[3] =3D 0x07;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_addr_init[4] =3D 0x08;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_addr_init[5] =3D 0x09;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_addr_init[6] =3D 0x0a;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_addr_init[7] =3D 0x0b;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_addr_init[8] =3D 0x0c;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_addr_lower_page[0] =3D =
+0x04;	=09
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_addr_lower_page[1] =3D =
+0x07;
+</DIV><DIV class=3Dctx> =09
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_addr_upper_page[0] =3D =
+0x04;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_addr_upper_page[1] =3D =
+0x05;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+//lower_page
+</DIV><DIV class=3Dadd>+		=
+//aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_lower_pag=
+e[0][0][0] =3D 0x0;=09
+</DIV><DIV class=3Dadd>+		=
+//aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_lower_pag=
+e[0][0][1] =3D 0x0;
+</DIV><DIV class=3Dadd>+	=09
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_lower_page[=
+0][0][0] =3D 0xF0;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_lower_page[=
+0][0][1] =3D 0xF0;
+</DIV><DIV class=3Dadd>+	=09
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_lower_page[=
+0][1][0] =3D 0xE0;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_lower_page[=
+0][1][1] =3D 0xE0;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_lower_page[=
+0][2][0] =3D 0xD0;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_lower_page[=
+0][2][1] =3D 0xD0;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_lower_page[=
+0][3][0] =3D 0x10;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_lower_page[=
+0][3][1] =3D 0x10;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_lower_page[=
+0][4][0] =3D 0x20;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_lower_page[=
+0][4][1] =3D 0x20;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_lower_page[=
+0][5][0] =3D 0x30;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_lower_page[=
+0][5][1] =3D 0x30;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_lower_page[=
+0][6][0] =3D 0xC0;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_lower_page[=
+0][6][1] =3D 0xD0;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_lower_page[=
+0][7][0] =3D 0x0;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_lower_page[=
+0][7][1] =3D 0x10;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_lower_page[=
+0][8][0] =3D 0x0;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_lower_page[=
+0][8][1] =3D 0x20;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_lower_page[=
+0][9][0] =3D 0x10;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_lower_page[=
+0][9][1] =3D 0x20;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_lower_page[=
+0][10][0] =3D 0xB0;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_lower_page[=
+0][10][1] =3D 0xD0;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_lower_page[=
+0][11][0] =3D 0xA0;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_lower_page[=
+0][11][1] =3D 0xD0;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_lower_page[=
+0][12][0] =3D 0x90;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_lower_page[=
+0][12][1] =3D 0xD0;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_lower_page[=
+0][13][0] =3D 0xB0;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_lower_page[=
+0][13][1] =3D 0xC0;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_lower_page[=
+0][14][0] =3D 0xA0;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_lower_page[=
+0][14][1] =3D 0xC0;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_lower_page[=
+0][15][0] =3D 0x90;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_lower_page[=
+0][15][1] =3D 0xC0;
+</DIV><DIV class=3Dadd>+//upper_page
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+		=
+//aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_upper_pag=
+e[0][0][0] =3D 0x0;
+</DIV><DIV class=3Dadd>+		=
+//aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_upper_pag=
+e[0][0][1] =3D 0x0;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_upper_page[=
+0][0][0] =3D 0x0;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_upper_page[=
+0][0][1] =3D 0xF0;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_upper_page[=
+0][1][0] =3D 0xF;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_upper_page[=
+0][1][1] =3D 0xE0;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_upper_page[=
+0][2][0] =3D 0xF;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_upper_page[=
+0][2][1] =3D 0xD0;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_upper_page[=
+0][3][0] =3D 0xE;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_upper_page[=
+0][3][1] =3D 0xE0;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_upper_page[=
+0][4][0] =3D 0xE;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_upper_page[=
+0][4][1] =3D 0xD0;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_upper_page[=
+0][5][0] =3D 0xD;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_upper_page[=
+0][5][1] =3D 0xF0;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_upper_page[=
+0][6][0] =3D 0xD;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_upper_page[=
+0][6][1] =3D 0xE0;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_upper_page[=
+0][7][0] =3D 0xD;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_upper_page[=
+0][7][1] =3D 0xD0;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_upper_page[=
+0][8][0] =3D 0x1;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_upper_page[=
+0][8][1] =3D 0x10;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_upper_page[=
+0][9][0] =3D 0x2;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_upper_page[=
+0][9][1] =3D 0x20;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_upper_page[=
+0][10][0] =3D 0x2;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_upper_page[=
+0][10][1] =3D 0x10;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_upper_page[=
+0][11][0] =3D 0x3;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_upper_page[=
+0][11][1] =3D 0x20;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_upper_page[=
+0][12][0] =3D 0xF;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_upper_page[=
+0][12][1] =3D 0x00;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_upper_page[=
+0][13][0] =3D 0xE;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_upper_page[=
+0][13][1] =3D 0xF0;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_upper_page[=
+0][14][0] =3D 0xD;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_upper_page[=
+0][14][1] =3D 0xC0;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_upper_page[=
+0][15][0] =3D 0xF;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_upper_page[=
+0][15][1] =3D 0xF0;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_upper_page[=
+0][16][0] =3D 0x1;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_upper_page[=
+0][16][1] =3D 0x00;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_upper_page[=
+0][17][0] =3D 0x20;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_upper_page[=
+0][17][1] =3D 0x00;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_upper_page[=
+0][18][0] =3D 0xD;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_upper_page[=
+0][18][1] =3D 0xB0;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_upper_page[=
+0][19][0] =3D 0xC;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.reg_offset_value_upper_page[=
+0][19][1] =3D 0xA0;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.dynamic_read_init =3D =
+aml_nand_dynamic_read_init;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.dynamic_read_handle =3D =
+aml_nand_dynamic_read_handle;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.dynamic_read_exit =3D =
+aml_nand_dynamic_read_exit;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.enter_slc_mode =3D =
+aml_nand_enter_slc_mode_sandisk;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.dynamic_read_info.exit_slc_mode=3D =
+aml_nand_exit_slc_mode_sandisk;
+</DIV><DIV class=3Dadd>+	}
+</DIV><DIV class=3Dadd>+	else  if(!strncmp((char*)type-&gt;id, =
+(char*)dev_id_micron_20nm_8g, strlen((const =
+char*)aml_nand_flash_ids[i].id))){
+</DIV><DIV class=3Dadd>+		aml_chip-&gt;new_nand_info.type =3D  =
+MICRON_20NM;=09
+</DIV><DIV class=3Dadd>+	=09
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.read_rety_info.reg_addr[0] =3D 0x89;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.read_rety_info.reg_offset_value[0][0][0] =3D =
+0x1;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.read_rety_info.reg_offset_value[0][1][0] =3D =
+0x2;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.read_rety_info.reg_offset_value[0][2][0] =3D =
+0x3;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.read_rety_info.reg_offset_value[0][3][0] =3D =
+0x4;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.read_rety_info.reg_offset_value[0][4][0] =3D =
+0x5;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.read_rety_info.reg_offset_value[0][5][0] =3D =
+0x6;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.read_rety_info.reg_offset_value[0][6][0] =3D =
+0x7;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.read_rety_info.reg_cnt =3D 1;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.read_rety_info.retry_cnt =3D 7;
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.read_rety_info.read_retry_handle =3D =
+aml_nand_read_retry_handle_micron;
+</DIV><DIV class=3Dadd>+		=
+aml_chip-&gt;new_nand_info.read_rety_info.read_retry_exit =3D =
+aml_nand_read_retry_exit_micron;=09
+</DIV><DIV class=3Dadd>+
+</DIV><DIV class=3Dctx> }
+</DIV><DIV class=3Dctx> #endif
+</DIV><DIV class=3Dctx> 	if (!mtd-&gt;name)
+</DIV><DIV class=3Dhunk>@@ -4013,7 +4576,7 @@ static int =
+aml_nand_env_init(struct mtd_info *mtd)</DIV><DIV class=3Dctx> 	struct =
+nand_chip *chip =3D &amp;aml_chip-&gt;chip;
+</DIV><DIV class=3Dctx> 	struct env_oobinfo_t *env_oobinfo;
+</DIV><DIV class=3Dctx> 	struct env_free_node_t *env_free_node, =
+*env_tmp_node, *env_prev_node;
+</DIV><DIV class=3Ddel>-	int error =3D 0, start_blk, total_blk, env_blk, =
+i, pages_per_blk, bad_blk_cnt =3D 0, max_env_blk, phys_erase_shift;
+</DIV><DIV class=3Dadd>+	int error =3D 0, ret, start_blk, total_blk, =
+env_blk, i, j, pages_per_blk, bad_blk_cnt =3D 0, max_env_blk, =
+phys_erase_shift;
+</DIV><DIV class=3Dctx> 	loff_t offset;
+</DIV><DIV class=3Dctx> 	unsigned char *data_buf;
+</DIV><DIV class=3Dctx> 	struct mtd_oob_ops aml_oob_ops;
+</DIV><DIV class=3Dhunk>@@ -4061,7 +4624,14 @@ static int =
+aml_nand_env_init(struct mtd_info *mtd)</DIV><DIV class=3Dctx> 		offset =
+*=3D start_blk;
+</DIV><DIV class=3Dctx> 		error =3D mtd-&gt;block_isbad(mtd, offset);
+</DIV><DIV class=3Dctx> 		if (error) {
+</DIV><DIV class=3Ddel>-			=
+aml_chip-&gt;aml_nandenv_info-&gt;nand_bbt_info.nand_bbt[bad_blk_cnt++] =
+=3D start_blk;
+</DIV><DIV class=3Dadd>+			for (j=3D0; j&lt;MAX_BAD_BLK_NUM; j++) {
+</DIV><DIV class=3Dadd>+				if =
+(aml_chip-&gt;aml_nandenv_info-&gt;nand_bbt_info.nand_bbt[j] =3D=3D 0) {
+</DIV><DIV class=3Dadd>+					=
+aml_chip-&gt;aml_nandenv_info-&gt;nand_bbt_info.nand_bbt[j] =3D =
+start_blk;
+</DIV><DIV class=3Dadd>+					bad_blk_cnt++;
+</DIV><DIV class=3Dadd>+					break;
+</DIV><DIV class=3Dadd>+				}
+</DIV><DIV class=3Dadd>+			}
+</DIV><DIV class=3Dadd>+			=
+//aml_chip-&gt;aml_nandenv_info-&gt;nand_bbt_info.nand_bbt[bad_blk_cnt++]=
+ =3D start_blk;
+</DIV><DIV class=3Dctx> 			continue;
+</DIV><DIV class=3Dctx> 		}
+</DIV><DIV class=3Dctx>=20
+</DIV><DIV class=3Dhunk>@@ -4153,8 +4723,8 @@ static int =
+aml_nand_env_init(struct mtd_info *mtd)</DIV><DIV class=3Dctx> 		if =
+((env_blk &gt;=3D max_env_blk) &amp;&amp; =
+(aml_chip-&gt;aml_nandenv_info-&gt;env_valid =3D=3D 1))
+</DIV><DIV class=3Dctx> 			break;
+</DIV><DIV class=3Dctx>=20
+</DIV><DIV class=3Ddel>-	} while ((++start_blk) &lt; total_blk);
+</DIV><DIV class=3Ddel>-	if (start_blk &gt;=3D total_blk) {
+</DIV><DIV class=3Dadd>+	} while ((++start_blk) &lt; ENV_NAND_SCAN_BLK); =
+//total_blk  ENV_NAND_SCAN_BLK
+</DIV><DIV class=3Dadd>+	if (start_blk &gt;=3D ENV_NAND_SCAN_BLK) {  =
+//total_blk  ENV_NAND_SCAN_BLK
+</DIV><DIV class=3Dctx> 		=
+memcpy(aml_chip-&gt;aml_nandenv_info-&gt;nand_bbt_info.bbt_head_magic, =
+BBT_HEAD_MAGIC, 4);
+</DIV><DIV class=3Dctx> 		=
+memcpy(aml_chip-&gt;aml_nandenv_info-&gt;nand_bbt_info.bbt_tail_magic, =
+BBT_TAIL_MAGIC, 4);
+</DIV><DIV class=3Dctx> 	}
+</DIV><DIV class=3Dhunk>@@ -5209,7 +5779,13 @@ int aml_nand_init(struct =
+aml_nand_chip *aml_chip)</DIV><DIV class=3Dctx> 					break;
+</DIV><DIV class=3Dctx> 				case 640:
+</DIV><DIV class=3Dctx> 					chip-&gt;ecc.layout =3D =
+&amp;aml_nand_oob_640;
+</DIV><DIV class=3Ddel>-					break;				=09
+</DIV><DIV class=3Dadd>+					break;=09
+</DIV><DIV class=3Dadd>+				case 744:
+</DIV><DIV class=3Dadd>+					chip-&gt;ecc.layout =3D =
+&amp;aml_nand_oob_744;
+</DIV><DIV class=3Dadd>+					break;		=09
+</DIV><DIV class=3Dadd>+				case 1280:
+</DIV><DIV class=3Dadd>+					chip-&gt;ecc.layout =3D =
+&amp;aml_nand_oob_1280;
+</DIV><DIV class=3Dadd>+					break;	=09
+</DIV><DIV class=3Dctx> 				default:
+</DIV><DIV class=3Dctx> 					printk("havn`t found any oob layout use =
+nand base oob layout " "oobsize %d\n", mtd-&gt;oobsize);
+</DIV><DIV class=3Dctx> 					chip-&gt;ecc.layout =3D =
+kzalloc(sizeof(struct nand_ecclayout), GFP_KERNEL);
+</DIV><DIV class=3Dhunk>@@ -5276,6 +5852,9 @@ int aml_nand_init(struct =
+aml_nand_chip *aml_chip)</DIV><DIV class=3Dctx> 	=09
+</DIV><DIV class=3Dctx> 			=
+aml_chip-&gt;new_nand_info.read_rety_info.get_default_value(mtd);
+</DIV><DIV class=3Dctx> 		}
+</DIV><DIV class=3Dadd>+		if((aml_chip-&gt;new_nand_info.type) =
+&amp;&amp; (aml_chip-&gt;new_nand_info.type =3D=3D SANDISK_19NM)){
+</DIV><DIV class=3Dadd>+			=
+aml_chip-&gt;new_nand_info.dynamic_read_info.dynamic_read_init(mtd);
+</DIV><DIV class=3Dadd>+		}//for sandisk
+</DIV><DIV class=3Dctx> #endif
+</DIV><DIV class=3Dctx> 		phys_erase_shift =3D fls(mtd-&gt;erasesize) - =
+1;
+</DIV><DIV class=3Dctx> 		aml_chip-&gt;block_status =3D =
+kzalloc((mtd-&gt;size &gt;&gt; phys_erase_shift), GFP_KERNEL);
+</DIV><DIV class=3Dhead>diff --git a/drivers/mtd/nand/nand_ids.c =
+b/drivers/mtd/nand/nand_ids.c<BR>index 3515975..c50969f 100755<BR>--- =
+a/<A =
+href=3D"http://10.8.9.5/m1-kernel-android/tree/drivers/mtd/nand/nand_ids.=
+c?h=3Dics-amlogic&amp;id=3D696eb14258320ee17f353d84c601e4fa2348356c">driv=
+ers/mtd/nand/nand_ids.c</A><BR>+++ b/<A =
+href=3D"http://10.8.9.5/m1-kernel-android/tree/drivers/mtd/nand/nand_ids.=
+c?h=3Dics-amlogic&amp;id=3D0f996b25e34ec79c0abf15535c5196cce0cd3caa">driv=
+ers/mtd/nand/nand_ids.c</A></DIV><DIV class=3Dhunk>@@ -140,6 +140,7 @@ =
+struct nand_manufacturers nand_manuf_ids[] =3D {</DIV><DIV class=3Dctx> 	=
+{NAND_MFR_HYNIX, "Hynix"},</DIV><DIV class=3Dctx> 	{NAND_MFR_MICRON, =
+"Micron"},</DIV><DIV class=3Dctx> 	{NAND_MFR_AMD, "AMD"},</DIV><DIV =
+class=3Dadd>+	{NAND_MFR_SANDISK, "Sandisk"},</DIV><DIV class=3Dctx> 	=
+{0x0, "Unknown"}</DIV><DIV class=3Dctx> };</DIV><DIV class=3Dctx> =
+</DIV><DIV class=3Dhead>diff --git a/include/linux/mtd/nand.h =
+b/include/linux/mtd/nand.h<BR>index c73fd61..26f1db8 100755<BR>--- a/<A =
+href=3D"http://10.8.9.5/m1-kernel-android/tree/include/linux/mtd/nand.h?h=
+=3Dics-amlogic&amp;id=3D696eb14258320ee17f353d84c601e4fa2348356c">include=
+/linux/mtd/nand.h</A><BR>+++ b/<A =
+href=3D"http://10.8.9.5/m1-kernel-android/tree/include/linux/mtd/nand.h?h=
+=3Dics-amlogic&amp;id=3D0f996b25e34ec79c0abf15535c5196cce0cd3caa">include=
+/linux/mtd/nand.h</A></DIV><DIV class=3Dhunk>@@ -429,6 +429,7 @@ struct =
+nand_chip {</DIV><DIV class=3Dctx> #define NAND_MFR_MICRON		=
+0x2c</DIV><DIV class=3Dctx> #define NAND_MFR_AMD		0x01</DIV><DIV =
+class=3Dctx> #define NAND_MFR_INTEL		0x89</DIV><DIV class=3Dadd>+#define =
+NAND_MFR_SANDISK		0x45 </DIV><DIV class=3Dctx> </DIV><DIV class=3Dctx> =
+/**</DIV><DIV class=3Dctx>  * struct nand_flash_dev - NAND Flash Device =
+ID Structure</DIV></TD></TR></TBODY></TABLE></DIV><!-- class=3Dcontent =
+-->
+<DIV class=3Dfooter>generated by cgit v0.9.0.3-65-g4555 at 2012-11-12 =
+02:52:23=20
+(GMT)</DIV></DIV><!-- id=3Dcgit --></BODY></HTML>
+
+------=_NextPart_000_0000_01CDC0C3.D324EA60
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://10.8.9.5/cgit.png
+
+iVBORw0KGgoAAAANSUhEUgAAAGAAAABACAYAAADlNHIOAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A
+/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAABWNJREFUeNrtm12IlFUYx3//2fVr13LdyjT6
+sjSsaCXSKOpCKyutBM2Z3SWVhaAupJvoIoiIvPGmKKirKEr8anYKojAS0S4SlVI0zcosigpyQ5dd
+dd1P5+niHWt85+zuzL7zkc75w1zMeeed857zP8/388rM8KgcYn4LPAFVjdqL7YFTUlhndsfNGrwE
+eHgCPAEenoCLDfJxgPeCqtqL8irI2wBPgIcnwBPg4QnwcUBe2CI11cAiYB5wCzBd0ABMAGoyPxsy
+OA2cAY4Ljhh8dw62tpr9WE430vH7oiNuppLHASmpGXipFu7I538FUwk+1wHzFUz2Wko6ZLA2Yfax
+P/95EPCOVDcVNgLLijRnk+CjlLS1B1a0mfV5GzACpsKWIm5+Nh6rg09S0ngvAcOrnVXAUtc1gxOC
+vQYHDU4C3YLBzOUag3pBo+Bm4H5gVo4BgkcM1gBvlGqBBqtCc24I/eSswbP/SyPcLh1VYGiz0ZWG
+52OwKW42UIANudfgPcGtoUudAzDzKbNTpTDCxb6/bCooKc13bP7QOXig2ez9QjY/4ynsGYAHgc7Q
+pcZx8Ki3AbnqYZFDnFMtZgfGOtlKs78M3nJcesgTkEvAPAcB2yPrPPjcMXyXJyAXsxwEHCzCnIcd
+Y1d5AnIxPTxQA38WIWrsBfpDUnGld0NzMSU8kIATxYjr42YTfQw8ugSMC33vN19ALisBCun/fr9d
+FUhFZLHhT38lCfDwBHgCPDwB1UuAhbwij9ITYCEvyAdPZY6EB4HsatV4SSpGMNYudQsuzyY7blYu
+dWhEkOaUtJsLnz0dN2sqBQHdhJJkm2Ea0BFl9ZKUhMmh4TNlPHR9wKSs7zUFstckqM8aGojyMLER
+JupwsHVt1NVvhiuUO++EMhJwNrTOugLvnxS6v6ckBAiOhcfScGfU1de4c//lLMx3htYZ2yjNyOfG
+jdKM8OFRUA8viRHe7yAlculQsLzCdu8XB/t5Haxx7p6o30tFgKv6tSwp3TPWyZLSXIPVFSbgqGNs
+ZZ6Hp8Whqo+UhIC42dcGP4XFVbAtJT1dSD/Pq1KsXXoyBl9U2p1Nw5eujU1Kz0nSCN5Pm9yHZ1ck
+jTCSV5mUVsdg/TBG+gSwR3AA6EzDqfN9QYLaNNQJpgnmGCwQXD3Sg+TbXxm1rWSDVD8RjpPriZ2X
+ji+Anw1OZ3qbZgoeBpoce9AzCNfk21JTMAEZn/1TwROlPpnlIiCzprWCl4sQULyeMHuhpKmILmgx
++OxSij4F64CdEf9mXz+8UvJc0DNmZxNmS9PQavBDEdb/PdBbSQIyjQGPA2+PIZDqNXizDxasMuuJ
+fBgKzSwkpbmCJYK5BrMFM4AGgwlZPvIQ0GPQpyCg+xY4PATbWs0OpaQusor+BumEWU25VNAFgaF0
+Q23gGi8UzAEaCd53gKBv9KTgDwvecdjVC1vbzLqKJo2VqLOHCQB642Z1VCEqUg9wpLa7qFKM1p7+
+d3auRIFqmVZoY24oJqi9DS4LDXdUKwGjSUC/Al+4PpMBnHIObo8y4WyYSa4EHPMEuHHcccOKiCK3
+3KGS9nsC3Lr6K4cPvWaTNKa0dEq6XvCiIz2wwxPghquVfMp42PmhVFBqOiktNtiT5eL9G/63mO2r
+VgJGdEMlqR32AncPFw1akA/6Deg+376oQMdPAhoteMtmoeDGYaSsLWG23hMw/MmdHwtUUdGrVgbb
+mmFxNTf9jhoHNJt9Ayyh+HXb7YOQqPaO67wj4UzIvhZoVW7reiH41WBdM7zr293HkIr4QGqohyUG
+92Vy/TdlWkwm819t14BBC2oEHQRlwP0GO5pht9/4CAR4lNkGeHgCLmn8Ax8Czz9hPpGFAAAAAElF
+TkSuQmCC
+
+------=_NextPart_000_0000_01CDC0C3.D324EA60
+Content-Type: text/css;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://10.8.9.5/cgit.css
+
+DIV#cgit {
+	PADDING-BOTTOM: 4px; MARGIN: 0em; PADDING-LEFT: 4px; PADDING-RIGHT: =
+4px; FONT-FAMILY: sans-serif; BACKGROUND: white; COLOR: #333; FONT-SIZE: =
+10pt; PADDING-TOP: 4px
+}
+DIV#cgit A {
+	COLOR: blue; TEXT-DECORATION: none
+}
+DIV#cgit A:hover {
+	TEXT-DECORATION: underline
+}
+DIV#cgit TABLE {
+	BORDER-COLLAPSE: collapse
+}
+DIV#cgit TABLE#header {
+	WIDTH: 100%; MARGIN-BOTTOM: 1em
+}
+DIV#cgit TABLE#header TD.logo {
+	WIDTH: 96px; VERTICAL-ALIGN: top
+}
+DIV#cgit TABLE#header TD.main {
+	PADDING-LEFT: 10px; WHITE-SPACE: nowrap; FONT-SIZE: 250%
+}
+DIV#cgit TABLE#header TD.main A {
+	COLOR: #000
+}
+DIV#cgit TABLE#header TD.form {
+	TEXT-ALIGN: right; PADDING-BOTTOM: 2px; PADDING-RIGHT: 1em; =
+WHITE-SPACE: nowrap; VERTICAL-ALIGN: bottom
+}
+DIV#cgit TABLE#header TD.form FORM {
+	FONT-SIZE: 90%
+}
+DIV#cgit TABLE#header TD.form INPUT {
+	FONT-SIZE: 90%
+}
+DIV#cgit TABLE#header TD.form SELECT {
+	FONT-SIZE: 90%
+}
+DIV#cgit TABLE#header TD.sub {
+	PADDING-LEFT: 10px; COLOR: #777; BORDER-TOP: #ccc 1px solid
+}
+DIV#cgit TABLE.tabs {
+	BORDER-BOTTOM: #ccc 3px solid; MARGIN-TOP: 2em; WIDTH: 100%; =
+BORDER-COLLAPSE: collapse; MARGIN-BOTTOM: 0px
+}
+DIV#cgit TABLE.tabs TD {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 1em; PADDING-RIGHT: 1em; =
+VERTICAL-ALIGN: bottom; PADDING-TOP: 0px
+}
+DIV#cgit TABLE.tabs TD A {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 0.75em; PADDING-RIGHT: 0.75em; =
+COLOR: #777; FONT-SIZE: 110%; PADDING-TOP: 2px
+}
+DIV#cgit TABLE.tabs TD A.active {
+	BACKGROUND-COLOR: #ccc; COLOR: #000
+}
+DIV#cgit TABLE.tabs TD.form {
+	TEXT-ALIGN: right
+}
+DIV#cgit TABLE.tabs TD.form FORM {
+	PADDING-BOTTOM: 2px; WHITE-SPACE: nowrap; FONT-SIZE: 90%
+}
+DIV#cgit TABLE.tabs TD.form INPUT {
+	FONT-SIZE: 90%
+}
+DIV#cgit TABLE.tabs TD.form SELECT {
+	FONT-SIZE: 90%
+}
+DIV#cgit DIV.path {
+	PADDING-BOTTOM: 2px; BACKGROUND-COLOR: #eee; MARGIN: 0px; PADDING-LEFT: =
+2em; PADDING-RIGHT: 2em; COLOR: #000; PADDING-TOP: 5px
+}
+DIV#cgit DIV.content {
+	BORDER-BOTTOM: #ccc 3px solid; PADDING-BOTTOM: 2em; MARGIN: 0px; =
+PADDING-LEFT: 2em; PADDING-RIGHT: 2em; PADDING-TOP: 2em
+}
+DIV#cgit TABLE.list {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; WIDTH: 100%; =
+BORDER-COLLAPSE: collapse; BORDER-TOP: medium none; BORDER-RIGHT: medium =
+none
+}
+DIV#cgit TABLE.list TR {
+	BACKGROUND: white
+}
+DIV#cgit TABLE.list TR.logheader {
+	BACKGROUND: #eee
+}
+DIV#cgit TABLE.list TR:hover {
+	BACKGROUND: #eee
+}
+DIV#cgit TABLE.list TR.nohover:hover {
+	BACKGROUND: white
+}
+DIV#cgit TABLE.list TH {
+	PADDING-BOTTOM: 0.05em; PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em; =
+VERTICAL-ALIGN: baseline; FONT-WEIGHT: bold; PADDING-TOP: 0.1em
+}
+DIV#cgit TABLE.list TD {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: =
+0.1em; PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em; BORDER-TOP: medium =
+none; BORDER-RIGHT: medium none; PADDING-TOP: 0.1em
+}
+DIV#cgit TABLE.list TD.commitgraph {
+	FONT-FAMILY: monospace; WHITE-SPACE: pre
+}
+DIV#cgit TABLE.list TD.commitgraph .column1 {
+	COLOR: #a00
+}
+DIV#cgit TABLE.list TD.commitgraph .column2 {
+	COLOR: #0a0
+}
+DIV#cgit TABLE.list TD.commitgraph .column3 {
+	COLOR: #aa0
+}
+DIV#cgit TABLE.list TD.commitgraph .column4 {
+	COLOR: #00a
+}
+DIV#cgit TABLE.list TD.commitgraph .column5 {
+	COLOR: #a0a
+}
+DIV#cgit TABLE.list TD.commitgraph .column6 {
+	COLOR: #0aa
+}
+DIV#cgit TABLE.list TD.logsubject {
+	FONT-FAMILY: monospace; FONT-WEIGHT: bold
+}
+DIV#cgit TABLE.list TD.logmsg {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em; =
+FONT-FAMILY: monospace; WHITE-SPACE: pre; PADDING-TOP: 0px
+}
+DIV#cgit TABLE.list TD A {
+	COLOR: black
+}
+DIV#cgit TABLE.list TD A.ls-dir {
+	COLOR: #00f; FONT-WEIGHT: bold
+}
+DIV#cgit TABLE.list TD A:hover {
+	COLOR: #00f
+}
+DIV#cgit IMG {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: =
+medium none; BORDER-RIGHT: medium none
+}
+DIV#cgit INPUT#switch-btn {
+	MARGIN: 2px 0px 0px
+}
+DIV#cgit TD#sidebar INPUT.txt {
+	MARGIN: 2px 0px 0px; WIDTH: 100%
+}
+DIV#cgit TABLE#grid {
+	MARGIN: 0px
+}
+DIV#cgit TD#content {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: =
+1em; PADDING-LEFT: 1em; PADDING-RIGHT: 2em; VERTICAL-ALIGN: top; =
+BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 1em
+}
+DIV#cgit DIV#summary {
+	MARGIN-BOTTOM: 1em; VERTICAL-ALIGN: top
+}
+DIV#cgit TABLE#downloads {
+	BORDER-BOTTOM: #777 1px solid; BORDER-LEFT: #777 1px solid; =
+BORDER-COLLAPSE: collapse; MARGIN-BOTTOM: 0.5em; FLOAT: right; =
+MARGIN-LEFT: 0.5em; BORDER-TOP: #777 1px solid; BORDER-RIGHT: #777 1px =
+solid
+}
+DIV#cgit TABLE#downloads TH {
+	BACKGROUND-COLOR: #ccc
+}
+DIV#cgit DIV#blob {
+	BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; =
+BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid
+}
+DIV#cgit DIV.error {
+	MARGIN: 1em 2em; COLOR: red; FONT-WEIGHT: bold
+}
+DIV#cgit A.ls-blob {
+	FONT-FAMILY: monospace
+}
+DIV#cgit A.ls-dir {
+	FONT-FAMILY: monospace
+}
+DIV#cgit A.ls-mod {
+	FONT-FAMILY: monospace
+}
+DIV#cgit TD.ls-size {
+	TEXT-ALIGN: right; WIDTH: 10em; FONT-FAMILY: monospace
+}
+DIV#cgit TD.ls-mode {
+	WIDTH: 10em; FONT-FAMILY: monospace
+}
+DIV#cgit TABLE.blob {
+	MARGIN-TOP: 0.5em; BORDER-TOP: black 1px solid
+}
+DIV#cgit TABLE.blob TD.lines {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0.5em; PADDING-RIGHT: =
+0px; COLOR: black; VERTICAL-ALIGN: top; PADDING-TOP: 0px
+}
+DIV#cgit TABLE.blob TD.linenumbers {
+	TEXT-ALIGN: right; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: =
+0.5em; PADDING-RIGHT: 0.5em; VERTICAL-ALIGN: top; BORDER-RIGHT: gray 1px =
+solid; PADDING-TOP: 0px
+}
+DIV#cgit TABLE.blob PRE {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; PADDING-TOP: 0px
+}
+DIV#cgit TABLE.blob A.no {
+	TEXT-ALIGN: right; COLOR: gray; TEXT-DECORATION: none
+}
+DIV#cgit TABLE.ssdiff A.no {
+	TEXT-ALIGN: right; COLOR: gray; TEXT-DECORATION: none
+}
+DIV#cgit TABLE.blob A.no A:hover {
+	COLOR: black
+}
+DIV#cgit TABLE.bin-blob {
+	BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; =
+MARGIN-TOP: 0.5em; BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px =
+solid
+}
+DIV#cgit TABLE.bin-blob TH {
+	BORDER-BOTTOM: #777 1px solid; BORDER-LEFT: #777 1px solid; =
+PADDING-BOTTOM: 0.5em; PADDING-LEFT: 1em; PADDING-RIGHT: 1em; =
+FONT-FAMILY: monospace; WHITE-SPACE: pre; BORDER-TOP: #777 1px solid; =
+BORDER-RIGHT: #777 1px solid; PADDING-TOP: 0.5em
+}
+DIV#cgit TABLE.bin-blob TD {
+	BORDER-LEFT: #777 1px solid; PADDING-BOTTOM: 0em; PADDING-LEFT: 1em; =
+PADDING-RIGHT: 1em; FONT-FAMILY: monospace; WHITE-SPACE: pre; =
+PADDING-TOP: 0em
+}
+DIV#cgit TABLE.nowrap TD {
+	WHITE-SPACE: nowrap
+}
+DIV#cgit TABLE.commit-info {
+	MARGIN-TOP: 1.5em; BORDER-COLLAPSE: collapse
+}
+DIV#cgit DIV.cgit-panel {
+	MARGIN-TOP: 1.5em; FLOAT: right
+}
+DIV#cgit DIV.cgit-panel TABLE {
+	BORDER-BOTTOM: #aaa 1px solid; BORDER-LEFT: #aaa 1px solid; =
+BACKGROUND-COLOR: #eee; BORDER-COLLAPSE: collapse; BORDER-TOP: #aaa 1px =
+solid; BORDER-RIGHT: #aaa 1px solid
+}
+DIV#cgit DIV.cgit-panel TH {
+	TEXT-ALIGN: center
+}
+DIV#cgit DIV.cgit-panel TD {
+	PADDING-BOTTOM: 0.25em; PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em; =
+PADDING-TOP: 0.25em
+}
+DIV#cgit DIV.cgit-panel TD.label {
+	PADDING-RIGHT: 0.5em
+}
+DIV#cgit DIV.cgit-panel TD.ctrl {
+	PADDING-LEFT: 0.5em
+}
+DIV#cgit TABLE.commit-info TH {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0.1em; PADDING-LEFT: 0.1em; =
+PADDING-RIGHT: 1em; VERTICAL-ALIGN: top; FONT-WEIGHT: normal; =
+PADDING-TOP: 0.1em
+}
+DIV#cgit TABLE.commit-info TD {
+	PADDING-BOTTOM: 0.1em; PADDING-LEFT: 0.1em; PADDING-RIGHT: 1em; =
+FONT-WEIGHT: normal; PADDING-TOP: 0.1em
+}
+DIV#cgit DIV.commit-subject {
+	PADDING-BOTTOM: 0em; MARGIN: 1.5em 0em 0.5em; PADDING-LEFT: 0em; =
+PADDING-RIGHT: 0em; FONT-SIZE: 125%; FONT-WEIGHT: bold; PADDING-TOP: 0em
+}
+DIV#cgit DIV.commit-msg {
+	FONT-FAMILY: monospace; WHITE-SPACE: pre
+}
+DIV#cgit DIV.notes-header {
+	FONT-WEIGHT: bold; PADDING-TOP: 1.5em
+}
+DIV#cgit DIV.notes {
+	BORDER-BOTTOM: #ee9 1px solid; BORDER-LEFT: #ee9 1px solid; =
+PADDING-BOTTOM: 0.3em; BACKGROUND-COLOR: #ffd; PADDING-LEFT: 1em; =
+PADDING-RIGHT: 2em; FONT-FAMILY: monospace; WHITE-SPACE: pre; FLOAT: =
+left; BORDER-TOP: #ee9 1px solid; BORDER-RIGHT: #ee9 1px solid; =
+PADDING-TOP: 0.3em
+}
+DIV#cgit DIV.notes-footer {
+	CLEAR: left
+}
+DIV#cgit DIV.diffstat-header {
+	FONT-WEIGHT: bold; PADDING-TOP: 1.5em
+}
+DIV#cgit TABLE.diffstat {
+	BORDER-BOTTOM: #aaa 1px solid; BORDER-LEFT: #aaa 1px solid; =
+BACKGROUND-COLOR: #eee; BORDER-COLLAPSE: collapse; BORDER-TOP: #aaa 1px =
+solid; BORDER-RIGHT: #aaa 1px solid
+}
+DIV#cgit TABLE.diffstat TH {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0.1em; PADDING-LEFT: 0.1em; =
+PADDING-RIGHT: 1em; FONT-SIZE: 100%; FONT-WEIGHT: normal; =
+TEXT-DECORATION: underline; PADDING-TOP: 0.1em
+}
+DIV#cgit TABLE.diffstat TD {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: =
+0.1em; PADDING-LEFT: 0.1em; PADDING-RIGHT: 0.2em; FONT-SIZE: 100%; =
+BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0.2em
+}
+DIV#cgit TABLE.diffstat TD.mode {
+	WHITE-SPACE: nowrap
+}
+DIV#cgit TABLE.diffstat TD SPAN.modechange {
+	PADDING-LEFT: 1em; COLOR: red
+}
+DIV#cgit TABLE.diffstat TD.add A {
+	COLOR: green
+}
+DIV#cgit TABLE.diffstat TD.del A {
+	COLOR: red
+}
+DIV#cgit TABLE.diffstat TD.upd A {
+	COLOR: blue
+}
+DIV#cgit TABLE.diffstat TD.graph {
+	WIDTH: 500px; VERTICAL-ALIGN: middle
+}
+DIV#cgit TABLE.diffstat TD.graph TABLE {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: =
+medium none; BORDER-RIGHT: medium none
+}
+DIV#cgit TABLE.diffstat TD.graph TD {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: 7pt; BORDER-TOP: 0px; =
+BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+DIV#cgit TABLE.diffstat TD.graph TD.add {
+	BACKGROUND-COLOR: #5c5
+}
+DIV#cgit TABLE.diffstat TD.graph TD.rem {
+	BACKGROUND-COLOR: #c55
+}
+DIV#cgit DIV.diffstat-summary {
+	COLOR: #888; PADDING-TOP: 0.5em
+}
+DIV#cgit TABLE.diff {
+	WIDTH: 100%
+}
+DIV#cgit TABLE.diff TD {
+	FONT-FAMILY: monospace; WHITE-SPACE: pre
+}
+DIV#cgit TABLE.diff TD DIV.head {
+	MARGIN-TOP: 1em; COLOR: black; FONT-WEIGHT: bold
+}
+DIV#cgit TABLE.diff TD DIV.hunk {
+	COLOR: #009
+}
+DIV#cgit TABLE.diff TD DIV.add {
+	COLOR: green
+}
+DIV#cgit TABLE.diff TD DIV.del {
+	COLOR: red
+}
+DIV#cgit .sha1 {
+	FONT-FAMILY: monospace; FONT-SIZE: 90%
+}
+DIV#cgit .left {
+	TEXT-ALIGN: left
+}
+DIV#cgit .right {
+	TEXT-ALIGN: right
+}
+DIV#cgit TABLE.list TD.reposection {
+	FONT-STYLE: italic; COLOR: #888
+}
+DIV#cgit A.button {
+	PADDING-BOTTOM: 0em; PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em; =
+FONT-SIZE: 80%; PADDING-TOP: 0em
+}
+DIV#cgit A.primary {
+	FONT-SIZE: 100%
+}
+DIV#cgit A.secondary {
+	FONT-SIZE: 90%
+}
+DIV#cgit TD.toplevel-repo {
+=09
+}
+DIV#cgit TABLE.list TD.sublevel-repo {
+	PADDING-LEFT: 1.5em
+}
+DIV#cgit DIV.pager {
+	TEXT-ALIGN: center; MARGIN: 1em 0em 0em
+}
+DIV#cgit DIV.pager A {
+	MARGIN: 0em 0.5em; COLOR: #777
+}
+DIV#cgit SPAN.age-mins {
+	COLOR: #080; FONT-WEIGHT: bold
+}
+DIV#cgit SPAN.age-hours {
+	COLOR: #080
+}
+DIV#cgit SPAN.age-days {
+	COLOR: #040
+}
+DIV#cgit SPAN.age-weeks {
+	COLOR: #444
+}
+DIV#cgit SPAN.age-months {
+	COLOR: #888
+}
+DIV#cgit SPAN.age-years {
+	COLOR: #bbb
+}
+DIV#cgit DIV.footer {
+	TEXT-ALIGN: center; MARGIN-TOP: 0.5em; COLOR: #ccc; FONT-SIZE: 80%
+}
+DIV#cgit A.branch-deco {
+	BORDER-BOTTOM: #007700 1px solid; BORDER-LEFT: #007700 1px solid; =
+PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #88ff88; MARGIN: 0px 0.5em; =
+PADDING-LEFT: 0.25em; PADDING-RIGHT: 0.25em; COLOR: #000; BORDER-TOP: =
+#007700 1px solid; BORDER-RIGHT: #007700 1px solid; PADDING-TOP: 0px
+}
+DIV#cgit A.tag-deco {
+	BORDER-BOTTOM: #777700 1px solid; BORDER-LEFT: #777700 1px solid; =
+PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #ffff88; MARGIN: 0px 0.5em; =
+PADDING-LEFT: 0.25em; PADDING-RIGHT: 0.25em; COLOR: #000; BORDER-TOP: =
+#777700 1px solid; BORDER-RIGHT: #777700 1px solid; PADDING-TOP: 0px
+}
+DIV#cgit A.remote-deco {
+	BORDER-BOTTOM: #000077 1px solid; BORDER-LEFT: #000077 1px solid; =
+PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #ccccff; MARGIN: 0px 0.5em; =
+PADDING-LEFT: 0.25em; PADDING-RIGHT: 0.25em; COLOR: #000; BORDER-TOP: =
+#000077 1px solid; BORDER-RIGHT: #000077 1px solid; PADDING-TOP: 0px
+}
+DIV#cgit A.deco {
+	BORDER-BOTTOM: #770000 1px solid; BORDER-LEFT: #770000 1px solid; =
+PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #ff8888; MARGIN: 0px 0.5em; =
+PADDING-LEFT: 0.25em; PADDING-RIGHT: 0.25em; COLOR: #000; BORDER-TOP: =
+#770000 1px solid; BORDER-RIGHT: #770000 1px solid; PADDING-TOP: 0px
+}
+DIV#cgit DIV.commit-subject A.branch-deco {
+	MARGIN-LEFT: 1em; FONT-SIZE: 75%
+}
+DIV#cgit DIV.commit-subject A.tag-deco {
+	MARGIN-LEFT: 1em; FONT-SIZE: 75%
+}
+DIV#cgit DIV.commit-subject A.remote-deco {
+	MARGIN-LEFT: 1em; FONT-SIZE: 75%
+}
+DIV#cgit DIV.commit-subject A.deco {
+	MARGIN-LEFT: 1em; FONT-SIZE: 75%
+}
+DIV#cgit TABLE.stats {
+	BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; =
+BORDER-COLLAPSE: collapse; BORDER-TOP: black 1px solid; BORDER-RIGHT: =
+black 1px solid
+}
+DIV#cgit TABLE.stats TH {
+	BORDER-BOTTOM: black 1px solid; TEXT-ALIGN: left; BORDER-LEFT: black =
+1px solid; PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #eee; PADDING-LEFT: =
+0.5em; PADDING-RIGHT: 0.5em; BORDER-TOP: black 1px solid; BORDER-RIGHT: =
+black 1px solid; PADDING-TOP: 1px
+}
+DIV#cgit TABLE.stats TD {
+	BORDER-BOTTOM: black 1px solid; TEXT-ALIGN: right; BORDER-LEFT: black =
+1px solid; PADDING-BOTTOM: 1px; PADDING-LEFT: 0.5em; PADDING-RIGHT: =
+0.5em; BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid; =
+PADDING-TOP: 1px
+}
+DIV#cgit TABLE.stats TD.total {
+	TEXT-ALIGN: left; FONT-WEIGHT: bold
+}
+DIV#cgit TABLE.stats TD.sum {
+	COLOR: #c00; FONT-WEIGHT: bold
+}
+DIV#cgit TABLE.stats TD.left {
+	TEXT-ALIGN: left
+}
+DIV#cgit TABLE.vgraph {
+	BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; =
+BORDER-COLLAPSE: separate; HEIGHT: 200px; BORDER-TOP: black 1px solid; =
+BORDER-RIGHT: black 1px solid
+}
+DIV#cgit TABLE.vgraph TH {
+	BORDER-BOTTOM: white 1px solid; BORDER-LEFT: white 1px solid; =
+PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #eee; PADDING-LEFT: 0.5em; =
+PADDING-RIGHT: 0.5em; BORDER-TOP: white 1px solid; FONT-WEIGHT: bold; =
+BORDER-RIGHT: white 1px solid; PADDING-TOP: 1px
+}
+DIV#cgit TABLE.vgraph TD {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; =
+VERTICAL-ALIGN: bottom; PADDING-TOP: 0px
+}
+DIV#cgit TABLE.vgraph DIV.bar {
+	BACKGROUND-COLOR: #eee
+}
+DIV#cgit TABLE.hgraph {
+	BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; WIDTH: =
+800px; BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid
+}
+DIV#cgit TABLE.hgraph TH {
+	BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; =
+PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #eee; PADDING-LEFT: 0.5em; =
+PADDING-RIGHT: 0.5em; BORDER-TOP: black 1px solid; FONT-WEIGHT: bold; =
+BORDER-RIGHT: black 1px solid; PADDING-TOP: 1px
+}
+DIV#cgit TABLE.hgraph TD {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; =
+VERTICAL-ALIGN: middle; PADDING-TOP: 2px
+}
+DIV#cgit TABLE.hgraph DIV.bar {
+	BACKGROUND-COLOR: #eee; HEIGHT: 1em
+}
+DIV#cgit TABLE.ssdiff {
+	WIDTH: 100%
+}
+DIV#cgit TABLE.ssdiff TD {
+	BORDER-LEFT: #aaa 1px solid; PADDING-BOTTOM: 1px; PADDING-LEFT: 4px; =
+PADDING-RIGHT: 4px; FONT-FAMILY: monospace; WHITE-SPACE: pre; FONT-SIZE: =
+75%; BORDER-RIGHT: #aaa 1px solid; PADDING-TOP: 1px
+}
+DIV#cgit TABLE.ssdiff TD.add {
+	MIN-WIDTH: 50%; BACKGROUND: #cfc; COLOR: black
+}
+DIV#cgit TABLE.ssdiff TD.add_dark {
+	MIN-WIDTH: 50%; BACKGROUND: #aca; COLOR: black
+}
+DIV#cgit TABLE.ssdiff SPAN.add {
+	BACKGROUND: #cfc; FONT-WEIGHT: bold
+}
+DIV#cgit TABLE.ssdiff TD.del {
+	MIN-WIDTH: 50%; BACKGROUND: #fcc; COLOR: black
+}
+DIV#cgit TABLE.ssdiff TD.del_dark {
+	MIN-WIDTH: 50%; BACKGROUND: #caa; COLOR: black
+}
+DIV#cgit TABLE.ssdiff SPAN.del {
+	BACKGROUND: #fcc; FONT-WEIGHT: bold
+}
+DIV#cgit TABLE.ssdiff TD.changed {
+	MIN-WIDTH: 50%; BACKGROUND: #ffc; COLOR: black
+}
+DIV#cgit TABLE.ssdiff TD.changed_dark {
+	MIN-WIDTH: 50%; BACKGROUND: #cca; COLOR: black
+}
+DIV#cgit TABLE.ssdiff TD.lineno {
+	MIN-WIDTH: 3em; TEXT-ALIGN: right; WIDTH: 3em; BACKGROUND: #eee; COLOR: =
+black
+}
+DIV#cgit TABLE.ssdiff TD.hunk {
+	BORDER-BOTTOM: #aaa 1px solid; BACKGROUND: #ccf; COLOR: black; =
+BORDER-TOP: #aaa 1px solid
+}
+DIV#cgit TABLE.ssdiff TD.head {
+	BORDER-BOTTOM: #aaa 1px solid; BORDER-TOP: #aaa 1px solid
+}
+DIV#cgit TABLE.ssdiff TD.head DIV.head {
+	COLOR: black; FONT-WEIGHT: bold
+}
+DIV#cgit TABLE.ssdiff TD.foot {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: #aaa =
+1px solid; BORDER-RIGHT: medium none
+}
+DIV#cgit TABLE.ssdiff TD.space {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: =
+medium none; BORDER-RIGHT: medium none
+}
+DIV#cgit TABLE.ssdiff TD.space DIV {
+	MIN-HEIGHT: 3em
+}
+DIV#cgit TABLE.blob .num {
+	COLOR: #2928ff
+}
+DIV#cgit TABLE.blob .esc {
+	COLOR: #ff00ff
+}
+DIV#cgit TABLE.blob .str {
+	COLOR: #ff0000
+}
+DIV#cgit TABLE.blob .dstr {
+	COLOR: #818100
+}
+DIV#cgit TABLE.blob .slc {
+	FONT-STYLE: italic; COLOR: #838183
+}
+DIV#cgit TABLE.blob .com {
+	FONT-STYLE: italic; COLOR: #838183
+}
+DIV#cgit TABLE.blob .dir {
+	COLOR: #008200
+}
+DIV#cgit TABLE.blob .sym {
+	COLOR: #000000
+}
+DIV#cgit TABLE.blob .kwa {
+	COLOR: #000000; FONT-WEIGHT: bold
+}
+DIV#cgit TABLE.blob .kwb {
+	COLOR: #830000
+}
+DIV#cgit TABLE.blob .kwc {
+	COLOR: #000000; FONT-WEIGHT: bold
+}
+DIV#cgit TABLE.blob .kwd {
+	COLOR: #010181
+}
+
+------=_NextPart_000_0000_01CDC0C3.D324EA60--
